@@ -102,7 +102,7 @@ int start()
             OrderSend(Symbol(),OP_SELLSTOP,LOTS*multiplicador,InitialPrice-(INCREMENT)*Point,2,BuyGoal+spread*Point,SellGoal+spread*Point,DoubleToStr(InitialPrice,MarketInfo(Symbol(),MODE_DIGITS)),MAGIC,0);
          }
          //venda
-         else{
+         else if(directionMACD==-1 && directionCross==-1){
             InitialPrice=Bid;
             SellGoal=InitialPrice-2*INCREMENT*Point;
             BuyGoal=InitialPrice+2*INCREMENT*Point;
@@ -204,11 +204,11 @@ void didi(){
    }
  
    if (arrayMACD[1] > arraySignal[1] && arrayMACD[4] < arraySignal[4]) { directionMACD = 1; 
-   //Print("MACD COMPRA"); 
-   okToTrade=true;}
+   //Print("MACD COMPRA"); okToTrade=true;
+   }
    else if (arrayMACD[1] < arraySignal[1] && arrayMACD[4] > arraySignal[4]) { directionMACD = -1; 
-   //Print("MACD VENDA"); 
-   okToTrade=true;}
+   //Print("MACD VENDA"); okToTrade=true;
+   }
    else { okToTrade = false;}
    
    
@@ -222,9 +222,8 @@ void didi(){
       volumeVal = Volume[i+1];
       if (volumeMA < volumeVal) { countAboveMA++; }
    }   
-   if (countAboveMA <= 4) {okToTrade = false; } else { 
-   //Print("VOLUME alto: ",countAboveMA); 
-   okToTrade=true;}
+   if (countAboveMA <= 4) {okToTrade = false; }
+   //else { Print("VOLUME alto: ",countAboveMA);}
    
    
    
@@ -253,11 +252,11 @@ void didi(){
          if ((diffFastSlow[0] < 0 && diffFastSlow[2] > 0) && (diffNormSlow[0] < 0 && diffNormSlow[2] > 0)) {
             directionCross = 1; 
             //Print("Cruzamento COMPRA");
-            okToTrade=true;
+            //okToTrade=true;
          } else if ((diffFastSlow[0] > 0 && diffFastSlow[2] < 0) && (diffNormSlow[0] > 0 && diffNormSlow[2] < 0)) {
             directionCross = -1; 
             //Print("Cruzamento VENDA");
-            okToTrade=true;
+            //okToTrade=true;
          } else { okToTrade = false;}
       }  
    }
