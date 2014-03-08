@@ -1,0 +1,668 @@
+19:29:05 2011.01.14 18:43  Tester: stop button pressed
+19:29:05 2011.01.14 18:43  Tester: order #49 is closed
+19:29:05 USDJPY,M1: 13924 tick events (739119 bars, 1475089 bar states) processed within 89015 ms (total time 90122 ms)
+19:29:13 TestGenerator: current spread 86 used
+19:29:15 mGRID EA branch_dori inputs: INCREMENT=150; LOTS=0.1; FATOR_HEDGE=4; MAGIC=1803; CONTINUE=1; MovingAvarageSlow=25; MovingAvarageNorm=8; MovingAvarageFast=3; 
+19:29:15 2011.01.03 00:00  mGRID EA branch_dori USDJPY,M1: Account Balance: 25000
+19:29:15 2011.01.03 00:00  mGRID EA branch_dori USDJPY,M1: open #1 buy stop 0.10 USDJPY at 81.342 sl: 80.892 tp: 81.492 ok
+19:29:15 2011.01.03 00:00  mGRID EA branch_dori USDJPY,M1: cpt(0)  BuyGoalProfit(149)
+19:29:15 2011.01.03 00:00  mGRID EA branch_dori USDJPY,M1: open #2 sell stop 0.10 USDJPY at 81.042 sl: 81.492 tp: 80.892 ok
+19:29:15 2011.01.03 00:00  mGRID EA branch_dori USDJPY,M1: cpt(0)  SellGoalProfit(150)
+19:29:23 2011.01.03 01:34  Tester: order #1, buy 0.10 USDJPY is opened at 81.342
+19:29:23 2011.01.03 01:34  mGRID EA branch_dori USDJPY,M1: SellGoalProfit(-299)  <  BuyGoalProfit*4(596)
+19:29:23 2011.01.03 01:34  mGRID EA branch_dori USDJPY,M1: op.:81.042
+19:29:23 2011.01.03 01:34  mGRID EA branch_dori USDJPY,M1: tp.:1500
+19:29:23 2011.01.03 01:34  mGRID EA branch_dori USDJPY,M1: diferenca.:895
+19:29:23 2011.01.03 01:34  mGRID EA branch_dori USDJPY,M1: novo lote  venda 0.61
+19:29:23 2011.01.03 01:34  mGRID EA branch_dori USDJPY,M1: open #3 sell stop 0.61 USDJPY at 81.042 sl: 81.492 tp: 80.892 ok
+19:29:23 2011.01.03 01:34  mGRID EA branch_dori USDJPY,M1: antes SellGoalProfit(-299)
+19:29:23 2011.01.03 01:34  mGRID EA branch_dori USDJPY,M1: depois SellGoalProfit(616)
+19:29:44 2011.01.03 14:27  Tester: take profit #1 at 81.492 (81.526 / 81.612)
+19:29:44 2011.01.03 14:27  mGRID EA branch_dori USDJPY,M1: delete #2 sell stop 0.10 USDJPY at 81.042 sl: 81.492 tp: 80.892 ok
+19:29:44 2011.01.03 14:28  mGRID EA branch_dori USDJPY,M1: delete #3 sell stop 0.61 USDJPY at 81.042 sl: 81.492 tp: 80.892 ok
+19:29:44 2011.01.03 14:29  mGRID EA branch_dori USDJPY,M1: Account Balance: 25018.4
+19:29:44 2011.01.03 14:29  mGRID EA branch_dori USDJPY,M1: open #4 buy stop 0.10 USDJPY at 81.703 sl: 81.253 tp: 81.853 ok
+19:29:44 2011.01.03 14:29  mGRID EA branch_dori USDJPY,M1: cpt(0)  BuyGoalProfit(149)
+19:29:44 2011.01.03 14:29  mGRID EA branch_dori USDJPY,M1: open #5 sell stop 0.10 USDJPY at 81.403 sl: 81.853 tp: 81.253 ok
+19:29:44 2011.01.03 14:29  mGRID EA branch_dori USDJPY,M1: cpt(0)  SellGoalProfit(150)
+19:29:44 2011.01.03 15:14  Tester: order #4, buy 0.10 USDJPY is opened at 81.703
+19:29:44 2011.01.03 15:14  mGRID EA branch_dori USDJPY,M1: SellGoalProfit(-299)  <  BuyGoalProfit*4(596)
+19:29:44 2011.01.03 15:14  mGRID EA branch_dori USDJPY,M1: op.:81.403
+19:29:44 2011.01.03 15:14  mGRID EA branch_dori USDJPY,M1: tp.:1500
+19:29:44 2011.01.03 15:14  mGRID EA branch_dori USDJPY,M1: diferenca.:895
+19:29:44 2011.01.03 15:14  mGRID EA branch_dori USDJPY,M1: novo lote  venda 0.61
+19:29:44 2011.01.03 15:14  mGRID EA branch_dori USDJPY,M1: open #6 sell stop 0.61 USDJPY at 81.403 sl: 81.853 tp: 81.253 ok
+19:29:44 2011.01.03 15:14  mGRID EA branch_dori USDJPY,M1: antes SellGoalProfit(-299)
+19:29:44 2011.01.03 15:14  mGRID EA branch_dori USDJPY,M1: depois SellGoalProfit(616)
+19:29:44 2011.01.04 02:18  Tester: take profit #4 at 81.853 (81.859 / 81.945)
+19:29:44 2011.01.04 02:18  mGRID EA branch_dori USDJPY,M1: delete #5 sell stop 0.10 USDJPY at 81.403 sl: 81.853 tp: 81.253 ok
+19:29:44 2011.01.04 02:19  mGRID EA branch_dori USDJPY,M1: delete #6 sell stop 0.61 USDJPY at 81.403 sl: 81.853 tp: 81.253 ok
+19:29:44 2011.01.04 02:20  mGRID EA branch_dori USDJPY,M1: Account Balance: 25036.73
+19:29:44 2011.01.04 02:20  mGRID EA branch_dori USDJPY,M1: open #7 buy stop 0.10 USDJPY at 82.134 sl: 81.684 tp: 82.284 ok
+19:29:44 2011.01.04 02:20  mGRID EA branch_dori USDJPY,M1: cpt(0)  BuyGoalProfit(149)
+19:29:44 2011.01.04 02:20  mGRID EA branch_dori USDJPY,M1: open #8 sell stop 0.10 USDJPY at 81.834 sl: 82.284 tp: 81.684 ok
+19:29:44 2011.01.04 02:20  mGRID EA branch_dori USDJPY,M1: cpt(0)  SellGoalProfit(150)
+19:29:44 2011.01.04 05:10  Tester: order #7, buy 0.10 USDJPY is opened at 82.134
+19:29:44 2011.01.04 05:10  mGRID EA branch_dori USDJPY,M1: SellGoalProfit(-299)  <  BuyGoalProfit*4(596)
+19:29:44 2011.01.04 05:10  mGRID EA branch_dori USDJPY,M1: op.:81.834
+19:29:44 2011.01.04 05:10  mGRID EA branch_dori USDJPY,M1: tp.:1500
+19:29:44 2011.01.04 05:10  mGRID EA branch_dori USDJPY,M1: diferenca.:895
+19:29:44 2011.01.04 05:10  mGRID EA branch_dori USDJPY,M1: novo lote  venda 0.61
+19:29:44 2011.01.04 05:10  mGRID EA branch_dori USDJPY,M1: open #9 sell stop 0.61 USDJPY at 81.834 sl: 82.284 tp: 81.684 ok
+19:29:44 2011.01.04 05:10  mGRID EA branch_dori USDJPY,M1: antes SellGoalProfit(-299)
+19:29:44 2011.01.04 05:10  mGRID EA branch_dori USDJPY,M1: depois SellGoalProfit(616)
+19:29:44 2011.01.04 18:18  Tester: order #8, sell 0.10 USDJPY is opened at 81.834
+19:29:44 2011.01.04 18:18  Tester: order #9, sell 0.61 USDJPY is opened at 81.834
+19:29:44 2011.01.04 18:18  mGRID EA branch_dori USDJPY,M1: BuyGoalProfit(-3044)  <  SellGoalProfit*4(2464)
+19:29:44 2011.01.04 18:18  mGRID EA branch_dori USDJPY,M1: op.:82.134
+19:29:44 2011.01.04 18:18  mGRID EA branch_dori USDJPY,M1: tp.:0.15
+19:29:44 2011.01.04 18:18  mGRID EA branch_dori USDJPY,M1: diferenca.:5508
+19:29:44 2011.01.04 18:18  mGRID EA branch_dori USDJPY,M1: novo lote compra 3.68
+19:29:44 2011.01.04 18:18  mGRID EA branch_dori USDJPY,M1: open #10 buy stop 3.68 USDJPY at 82.134 sl: 81.684 tp: 82.284 ok
+19:29:44 2011.01.04 18:18  mGRID EA branch_dori USDJPY,M1: antes BuyGoalProfit(-3044)
+19:29:44 2011.01.04 18:18  mGRID EA branch_dori USDJPY,M1: depois BuyGoalProfit(2475)
+19:29:44 2011.01.04 18:27  Tester: stop loss #7 at 81.684 (81.713 / 81.799)
+19:29:44 2011.01.04 18:27  mGRID EA branch_dori USDJPY,M1: close #8 sell 0.10 USDJPY at 81.834 sl: 82.284 tp: 81.684 at price 81.799
+19:29:44 2011.01.04 18:27  mGRID EA branch_dori USDJPY,M1: delete #10 buy stop 3.68 USDJPY at 82.134 sl: 81.684 tp: 82.284 ok
+19:29:44 2011.01.04 18:28  mGRID EA branch_dori USDJPY,M1: close #9 sell 0.61 USDJPY at 81.834 sl: 82.284 tp: 81.684 at price 81.767
+19:29:44 2011.01.04 18:29  mGRID EA branch_dori USDJPY,M1: Account Balance: 25035.92
+19:29:44 2011.01.04 18:29  mGRID EA branch_dori USDJPY,M1: open #11 buy stop 0.10 USDJPY at 81.951 sl: 81.501 tp: 82.101 ok
+19:29:44 2011.01.04 18:29  mGRID EA branch_dori USDJPY,M1: cpt(0)  BuyGoalProfit(150)
+19:29:44 2011.01.04 18:29  mGRID EA branch_dori USDJPY,M1: open #12 sell stop 0.10 USDJPY at 81.651 sl: 82.101 tp: 81.501 ok
+19:29:44 2011.01.04 18:29  mGRID EA branch_dori USDJPY,M1: cpt(0)  SellGoalProfit(149)
+19:29:44 2011.01.04 19:11  Tester: order #11, buy 0.10 USDJPY is opened at 81.951
+19:29:44 2011.01.04 19:11  mGRID EA branch_dori USDJPY,M1: SellGoalProfit(-299)  <  BuyGoalProfit*4(600)
+19:29:44 2011.01.04 19:11  mGRID EA branch_dori USDJPY,M1: op.:81.651
+19:29:44 2011.01.04 19:11  mGRID EA branch_dori USDJPY,M1: tp.:1500
+19:29:44 2011.01.04 19:11  mGRID EA branch_dori USDJPY,M1: diferenca.:899
+19:29:44 2011.01.04 19:11  mGRID EA branch_dori USDJPY,M1: novo lote  venda 0.61
+19:29:44 2011.01.04 19:11  mGRID EA branch_dori USDJPY,M1: open #13 sell stop 0.61 USDJPY at 81.651 sl: 82.101 tp: 81.501 ok
+19:29:44 2011.01.04 19:11  mGRID EA branch_dori USDJPY,M1: antes SellGoalProfit(-299)
+19:29:44 2011.01.04 19:11  mGRID EA branch_dori USDJPY,M1: depois SellGoalProfit(615)
+19:29:44 2011.01.04 23:30  Tester: take profit #11 at 82.101 (82.095 / 82.181)
+19:29:44 2011.01.04 23:30  mGRID EA branch_dori USDJPY,M1: delete #12 sell stop 0.10 USDJPY at 81.651 sl: 82.101 tp: 81.501 ok
+19:29:44 2011.01.04 23:31  mGRID EA branch_dori USDJPY,M1: delete #13 sell stop 0.61 USDJPY at 81.651 sl: 82.101 tp: 81.501 ok
+19:29:44 2011.01.04 23:32  mGRID EA branch_dori USDJPY,M1: Account Balance: 25054.19
+19:29:44 2011.01.04 23:32  mGRID EA branch_dori USDJPY,M1: open #14 buy stop 0.10 USDJPY at 82.329 sl: 81.879 tp: 82.479 ok
+19:29:44 2011.01.04 23:32  mGRID EA branch_dori USDJPY,M1: cpt(0)  BuyGoalProfit(150)
+19:29:44 2011.01.04 23:32  mGRID EA branch_dori USDJPY,M1: open #15 sell stop 0.10 USDJPY at 82.029 sl: 82.479 tp: 81.879 ok
+19:29:44 2011.01.04 23:32  mGRID EA branch_dori USDJPY,M1: cpt(0)  SellGoalProfit(149)
+19:29:44 2011.01.05 00:37  Tester: order #15, sell 0.10 USDJPY is opened at 82.029
+19:29:44 2011.01.05 00:37  mGRID EA branch_dori USDJPY,M1: BuyGoalProfit(-300)  <  SellGoalProfit*4(596)
+19:29:44 2011.01.05 00:37  mGRID EA branch_dori USDJPY,M1: op.:82.329
+19:29:44 2011.01.05 00:37  mGRID EA branch_dori USDJPY,M1: tp.:0.15
+19:29:44 2011.01.05 00:37  mGRID EA branch_dori USDJPY,M1: diferenca.:896
+19:29:44 2011.01.05 00:37  mGRID EA branch_dori USDJPY,M1: novo lote compra 0.61
+19:29:44 2011.01.05 00:37  mGRID EA branch_dori USDJPY,M1: open #16 buy stop 0.61 USDJPY at 82.329 sl: 81.879 tp: 82.479 ok
+19:29:44 2011.01.05 00:37  mGRID EA branch_dori USDJPY,M1: antes BuyGoalProfit(-300)
+19:29:44 2011.01.05 00:37  mGRID EA branch_dori USDJPY,M1: depois BuyGoalProfit(615)
+19:29:44 2011.01.05 13:52  Tester: order #14, buy 0.10 USDJPY is opened at 82.329
+19:29:44 2011.01.05 13:52  Tester: order #16, buy 0.61 USDJPY is opened at 82.329
+19:29:44 2011.01.05 13:52  mGRID EA branch_dori USDJPY,M1: SellGoalProfit(-3043)  <  BuyGoalProfit*4(2460)
+19:29:44 2011.01.05 13:52  mGRID EA branch_dori USDJPY,M1: op.:82.029
+19:29:44 2011.01.05 13:52  mGRID EA branch_dori USDJPY,M1: tp.:1500
+19:29:44 2011.01.05 13:52  mGRID EA branch_dori USDJPY,M1: diferenca.:5503
+19:29:44 2011.01.05 13:52  mGRID EA branch_dori USDJPY,M1: novo lote  venda 3.68
+19:29:44 2011.01.05 13:52  mGRID EA branch_dori USDJPY,M1: open #17 sell stop 3.68 USDJPY at 82.029 sl: 82.479 tp: 81.879 ok
+19:29:44 2011.01.05 13:52  mGRID EA branch_dori USDJPY,M1: antes SellGoalProfit(-3043)
+19:29:44 2011.01.05 13:52  mGRID EA branch_dori USDJPY,M1: depois SellGoalProfit(2476)
+19:29:44 2011.01.05 14:16  Tester: take profit #14 at 82.479 (82.632 / 82.718)
+19:29:44 2011.01.05 14:16  Tester: stop loss #15 at 82.479 (82.632 / 82.718)
+19:29:44 2011.01.05 14:16  Tester: take profit #16 at 82.479 (82.632 / 82.718)
+19:29:44 2011.01.05 14:16  mGRID EA branch_dori USDJPY,M1: delete #17 sell stop 3.68 USDJPY at 82.029 sl: 82.479 tp: 81.879 ok
+19:29:44 2011.01.05 14:17  mGRID EA branch_dori USDJPY,M1: Account Balance: 25128.66
+19:29:44 2011.01.05 14:17  mGRID EA branch_dori USDJPY,M1: open #18 buy stop 0.10 USDJPY at 82.896 sl: 82.446 tp: 83.046 ok
+19:29:44 2011.01.05 14:17  mGRID EA branch_dori USDJPY,M1: cpt(0)  BuyGoalProfit(149)
+19:29:44 2011.01.05 14:17  mGRID EA branch_dori USDJPY,M1: open #19 sell stop 0.10 USDJPY at 82.596 sl: 83.046 tp: 82.446 ok
+19:29:44 2011.01.05 14:17  mGRID EA branch_dori USDJPY,M1: cpt(0)  SellGoalProfit(150)
+19:29:44 2011.01.05 14:23  Tester: order #18, buy 0.10 USDJPY is opened at 82.896
+19:29:44 2011.01.05 14:23  mGRID EA branch_dori USDJPY,M1: SellGoalProfit(-299)  <  BuyGoalProfit*4(596)
+19:29:44 2011.01.05 14:23  mGRID EA branch_dori USDJPY,M1: op.:82.596
+19:29:44 2011.01.05 14:23  mGRID EA branch_dori USDJPY,M1: tp.:1500
+19:29:44 2011.01.05 14:23  mGRID EA branch_dori USDJPY,M1: diferenca.:895
+19:29:44 2011.01.05 14:23  mGRID EA branch_dori USDJPY,M1: novo lote  venda 0.61
+19:29:44 2011.01.05 14:23  mGRID EA branch_dori USDJPY,M1: open #20 sell stop 0.61 USDJPY at 82.596 sl: 83.046 tp: 82.446 ok
+19:29:44 2011.01.05 14:23  mGRID EA branch_dori USDJPY,M1: antes SellGoalProfit(-299)
+19:29:44 2011.01.05 14:23  mGRID EA branch_dori USDJPY,M1: depois SellGoalProfit(616)
+19:29:44 2011.01.05 14:30  Tester: take profit #18 at 83.046 (83.061 / 83.147)
+19:29:44 2011.01.05 14:30  mGRID EA branch_dori USDJPY,M1: delete #19 sell stop 0.10 USDJPY at 82.596 sl: 83.046 tp: 82.446 ok
+19:29:44 2011.01.05 14:31  mGRID EA branch_dori USDJPY,M1: delete #20 sell stop 0.61 USDJPY at 82.596 sl: 83.046 tp: 82.446 ok
+19:29:44 2011.01.05 14:32  mGRID EA branch_dori USDJPY,M1: Account Balance: 25146.71
+19:29:44 2011.01.05 14:32  mGRID EA branch_dori USDJPY,M1: open #21 buy stop 0.10 USDJPY at 83.151 sl: 82.701 tp: 83.301 ok
+19:29:44 2011.01.05 14:32  mGRID EA branch_dori USDJPY,M1: cpt(0)  BuyGoalProfit(150)
+19:29:44 2011.01.05 14:32  mGRID EA branch_dori USDJPY,M1: open #22 sell stop 0.10 USDJPY at 82.851 sl: 83.301 tp: 82.701 ok
+19:29:44 2011.01.05 14:32  mGRID EA branch_dori USDJPY,M1: cpt(0)  SellGoalProfit(149)
+19:29:44 2011.01.05 14:58  Tester: order #22, sell 0.10 USDJPY is opened at 82.851
+19:29:44 2011.01.05 14:58  mGRID EA branch_dori USDJPY,M1: BuyGoalProfit(-300)  <  SellGoalProfit*4(596)
+19:29:44 2011.01.05 14:58  mGRID EA branch_dori USDJPY,M1: op.:83.151
+19:29:44 2011.01.05 14:58  mGRID EA branch_dori USDJPY,M1: tp.:0.15
+19:29:44 2011.01.05 14:58  mGRID EA branch_dori USDJPY,M1: diferenca.:896
+19:29:44 2011.01.05 14:58  mGRID EA branch_dori USDJPY,M1: novo lote compra 0.61
+19:29:44 2011.01.05 14:58  mGRID EA branch_dori USDJPY,M1: open #23 buy stop 0.61 USDJPY at 83.151 sl: 82.701 tp: 83.301 ok
+19:29:44 2011.01.05 14:58  mGRID EA branch_dori USDJPY,M1: antes BuyGoalProfit(-300)
+19:29:44 2011.01.05 14:58  mGRID EA branch_dori USDJPY,M1: depois BuyGoalProfit(615)
+19:29:44 2011.01.05 15:12  Tester: order #21, buy 0.10 USDJPY is opened at 83.151
+19:29:44 2011.01.05 15:12  Tester: order #23, buy 0.61 USDJPY is opened at 83.151
+19:29:44 2011.01.05 15:12  mGRID EA branch_dori USDJPY,M1: SellGoalProfit(-3043)  <  BuyGoalProfit*4(2460)
+19:29:44 2011.01.05 15:12  mGRID EA branch_dori USDJPY,M1: op.:82.851
+19:29:44 2011.01.05 15:12  mGRID EA branch_dori USDJPY,M1: tp.:1500
+19:29:44 2011.01.05 15:12  mGRID EA branch_dori USDJPY,M1: diferenca.:5503
+19:29:44 2011.01.05 15:12  mGRID EA branch_dori USDJPY,M1: novo lote  venda 3.68
+19:29:44 2011.01.05 15:12  mGRID EA branch_dori USDJPY,M1: open #24 sell stop 3.68 USDJPY at 82.851 sl: 83.301 tp: 82.701 ok
+19:29:44 2011.01.05 15:12  mGRID EA branch_dori USDJPY,M1: antes SellGoalProfit(-3043)
+19:29:44 2011.01.05 15:12  mGRID EA branch_dori USDJPY,M1: depois SellGoalProfit(2476)
+19:29:44 2011.01.05 15:18  Tester: stop loss #22 at 83.301 (83.218 / 83.304)
+19:29:44 2011.01.05 15:18  mGRID EA branch_dori USDJPY,M1: close #21 buy 0.10 USDJPY at 83.151 sl: 82.701 tp: 83.301 at price 83.218
+19:29:44 2011.01.05 15:18  mGRID EA branch_dori USDJPY,M1: delete #24 sell stop 3.68 USDJPY at 82.851 sl: 83.301 tp: 82.701 ok
+19:29:44 2011.01.05 15:19  mGRID EA branch_dori USDJPY,M1: close #23 buy 0.61 USDJPY at 83.151 sl: 82.701 tp: 83.301 at price 83.226
+19:29:44 2011.01.05 15:20  mGRID EA branch_dori USDJPY,M1: Account Balance: 25155.71
+19:29:44 2011.01.05 15:20  mGRID EA branch_dori USDJPY,M1: open #25 buy stop 0.10 USDJPY at 83.406 sl: 82.956 tp: 83.556 ok
+19:29:44 2011.01.05 15:20  mGRID EA branch_dori USDJPY,M1: cpt(0)  BuyGoalProfit(149)
+19:29:44 2011.01.05 15:20  mGRID EA branch_dori USDJPY,M1: open #26 sell stop 0.10 USDJPY at 83.106 sl: 83.556 tp: 82.956 ok
+19:29:44 2011.01.05 15:20  mGRID EA branch_dori USDJPY,M1: cpt(0)  SellGoalProfit(149)
+19:29:44 2011.01.05 15:25  Tester: order #26, sell 0.10 USDJPY is opened at 83.106
+19:29:44 2011.01.05 15:25  mGRID EA branch_dori USDJPY,M1: BuyGoalProfit(-301)  <  SellGoalProfit*4(596)
+19:29:44 2011.01.05 15:25  mGRID EA branch_dori USDJPY,M1: op.:83.406
+19:29:44 2011.01.05 15:25  mGRID EA branch_dori USDJPY,M1: tp.:0.15
+19:29:44 2011.01.05 15:25  mGRID EA branch_dori USDJPY,M1: diferenca.:897
+19:29:44 2011.01.05 15:25  mGRID EA branch_dori USDJPY,M1: novo lote compra 0.61
+19:29:44 2011.01.05 15:25  mGRID EA branch_dori USDJPY,M1: open #27 buy stop 0.61 USDJPY at 83.406 sl: 82.956 tp: 83.556 ok
+19:29:44 2011.01.05 15:25  mGRID EA branch_dori USDJPY,M1: antes BuyGoalProfit(-301)
+19:29:44 2011.01.05 15:25  mGRID EA branch_dori USDJPY,M1: depois BuyGoalProfit(613)
+19:29:44 2011.01.05 17:00  Tester: order #25, buy 0.10 USDJPY is opened at 83.406
+19:29:44 2011.01.05 17:00  Tester: order #27, buy 0.61 USDJPY is opened at 83.406
+19:29:44 2011.01.05 17:00  mGRID EA branch_dori USDJPY,M1: SellGoalProfit(-3045)  <  BuyGoalProfit*4(2452)
+19:29:44 2011.01.05 17:00  mGRID EA branch_dori USDJPY,M1: op.:83.106
+19:29:44 2011.01.05 17:00  mGRID EA branch_dori USDJPY,M1: tp.:1500
+19:29:44 2011.01.05 17:00  mGRID EA branch_dori USDJPY,M1: diferenca.:5497
+19:29:44 2011.01.05 17:00  mGRID EA branch_dori USDJPY,M1: novo lote  venda 3.67
+19:29:44 2011.01.05 17:00  mGRID EA branch_dori USDJPY,M1: open #28 sell stop 3.67 USDJPY at 83.106 sl: 83.556 tp: 82.956 ok
+19:29:44 2011.01.05 17:00  mGRID EA branch_dori USDJPY,M1: antes SellGoalProfit(-3045)
+19:29:44 2011.01.05 17:00  mGRID EA branch_dori USDJPY,M1: depois SellGoalProfit(2459)
+19:29:44 2011.01.06 08:16  Tester: order #28, sell 3.67 USDJPY is opened at 83.106
+19:29:44 2011.01.06 08:16  mGRID EA branch_dori USDJPY,M1: BuyGoalProfit(-15902)  <  SellGoalProfit*4(9836)
+19:29:44 2011.01.06 08:16  mGRID EA branch_dori USDJPY,M1: op.:83.406
+19:29:44 2011.01.06 08:16  mGRID EA branch_dori USDJPY,M1: tp.:0.15
+19:29:44 2011.01.06 08:16  mGRID EA branch_dori USDJPY,M1: diferenca.:25738
+19:29:44 2011.01.06 08:16  mGRID EA branch_dori USDJPY,M1: novo lote compra 17.17
+19:29:44 2011.01.06 08:16  mGRID EA branch_dori USDJPY,M1: open #29 buy stop 17.17 USDJPY at 83.406 sl: 82.956 tp: 83.556 ok
+19:29:44 2011.01.06 08:16  mGRID EA branch_dori USDJPY,M1: antes BuyGoalProfit(-15902)
+19:29:44 2011.01.06 08:16  mGRID EA branch_dori USDJPY,M1: depois BuyGoalProfit(9852)
+19:29:44 2011.01.06 10:15  Tester: stop loss #25 at 82.956 (82.958 / 83.044)
+19:29:44 2011.01.06 10:15  Tester: stop loss #27 at 82.956 (82.958 / 83.044)
+19:29:44 2011.01.06 10:15  mGRID EA branch_dori USDJPY,M1: close #26 sell 0.10 USDJPY at 83.106 sl: 83.556 tp: 82.956 at price 83.044
+19:29:44 2011.01.06 10:15  mGRID EA branch_dori USDJPY,M1: delete #29 buy stop 17.17 USDJPY at 83.406 sl: 82.956 tp: 83.556 ok
+19:29:44 2011.01.06 10:18  mGRID EA branch_dori USDJPY,M1: close #28 sell 3.67 USDJPY at 83.106 sl: 83.556 tp: 82.956 at price 82.992
+19:29:44 2011.01.06 10:19  mGRID EA branch_dori USDJPY,M1: Account Balance: 25281.8724
+19:29:44 2011.01.06 10:19  mGRID EA branch_dori USDJPY,M1: open #30 buy stop 0.10 USDJPY at 83.145 sl: 82.695 tp: 83.295 ok
+19:29:44 2011.01.06 10:19  mGRID EA branch_dori USDJPY,M1: cpt(0)  BuyGoalProfit(150)
+19:29:44 2011.01.06 10:19  mGRID EA branch_dori USDJPY,M1: open #31 sell stop 0.10 USDJPY at 82.845 sl: 83.295 tp: 82.695 ok
+19:29:44 2011.01.06 10:19  mGRID EA branch_dori USDJPY,M1: cpt(0)  SellGoalProfit(149)
+19:29:44 2011.01.06 11:07  Tester: order #30, buy 0.10 USDJPY is opened at 83.145
+19:29:44 2011.01.06 11:07  mGRID EA branch_dori USDJPY,M1: SellGoalProfit(-299)  <  BuyGoalProfit*4(600)
+19:29:44 2011.01.06 11:07  mGRID EA branch_dori USDJPY,M1: op.:82.845
+19:29:44 2011.01.06 11:07  mGRID EA branch_dori USDJPY,M1: tp.:1500
+19:29:44 2011.01.06 11:07  mGRID EA branch_dori USDJPY,M1: diferenca.:899
+19:29:44 2011.01.06 11:07  mGRID EA branch_dori USDJPY,M1: novo lote  venda 0.61
+19:29:44 2011.01.06 11:07  mGRID EA branch_dori USDJPY,M1: open #32 sell stop 0.61 USDJPY at 82.845 sl: 83.295 tp: 82.695 ok
+19:29:44 2011.01.06 11:07  mGRID EA branch_dori USDJPY,M1: antes SellGoalProfit(-299)
+19:29:44 2011.01.06 11:07  mGRID EA branch_dori USDJPY,M1: depois SellGoalProfit(615)
+19:29:44 2011.01.06 21:04  Tester: take profit #30 at 83.295 (83.306 / 83.392)
+19:29:44 2011.01.06 21:04  mGRID EA branch_dori USDJPY,M1: delete #31 sell stop 0.10 USDJPY at 82.845 sl: 83.295 tp: 82.695 ok
+19:29:44 2011.01.06 21:05  mGRID EA branch_dori USDJPY,M1: delete #32 sell stop 0.61 USDJPY at 82.845 sl: 83.295 tp: 82.695 ok
+19:29:44 2011.01.06 21:06  mGRID EA branch_dori USDJPY,M1: Account Balance: 25299.8824
+19:29:44 2011.01.06 21:06  mGRID EA branch_dori USDJPY,M1: open #33 buy stop 0.10 USDJPY at 83.548 sl: 83.098 tp: 83.698 ok
+19:29:44 2011.01.06 21:06  mGRID EA branch_dori USDJPY,M1: cpt(0)  BuyGoalProfit(149)
+19:29:44 2011.01.06 21:06  mGRID EA branch_dori USDJPY,M1: open #34 sell stop 0.10 USDJPY at 83.248 sl: 83.698 tp: 83.098 ok
+19:29:44 2011.01.06 21:06  mGRID EA branch_dori USDJPY,M1: cpt(0)  SellGoalProfit(150)
+19:29:44 2011.01.07 00:06  Tester: order #34, sell 0.10 USDJPY is opened at 83.248
+19:29:44 2011.01.07 00:06  mGRID EA branch_dori USDJPY,M1: BuyGoalProfit(-300)  <  SellGoalProfit*4(600)
+19:29:44 2011.01.07 00:06  mGRID EA branch_dori USDJPY,M1: op.:83.548
+19:29:44 2011.01.07 00:06  mGRID EA branch_dori USDJPY,M1: tp.:0.15
+19:29:44 2011.01.07 00:06  mGRID EA branch_dori USDJPY,M1: diferenca.:900
+19:29:44 2011.01.07 00:06  mGRID EA branch_dori USDJPY,M1: novo lote compra 0.61
+19:29:44 2011.01.07 00:06  mGRID EA branch_dori USDJPY,M1: open #35 buy stop 0.61 USDJPY at 83.548 sl: 83.098 tp: 83.698 ok
+19:29:44 2011.01.07 00:06  mGRID EA branch_dori USDJPY,M1: antes BuyGoalProfit(-300)
+19:29:44 2011.01.07 00:06  mGRID EA branch_dori USDJPY,M1: depois BuyGoalProfit(614)
+19:29:44 2011.01.07 05:52  Tester: order #33, buy 0.10 USDJPY is opened at 83.548
+19:29:44 2011.01.07 05:52  Tester: order #35, buy 0.61 USDJPY is opened at 83.548
+19:29:44 2011.01.07 05:52  mGRID EA branch_dori USDJPY,M1: SellGoalProfit(-3044)  <  BuyGoalProfit*4(2456)
+19:29:44 2011.01.07 05:52  mGRID EA branch_dori USDJPY,M1: op.:83.248
+19:29:44 2011.01.07 05:52  mGRID EA branch_dori USDJPY,M1: tp.:1500
+19:29:44 2011.01.07 05:52  mGRID EA branch_dori USDJPY,M1: diferenca.:5500
+19:29:44 2011.01.07 05:52  mGRID EA branch_dori USDJPY,M1: novo lote  venda 3.68
+19:29:44 2011.01.07 05:52  mGRID EA branch_dori USDJPY,M1: open #36 sell stop 3.68 USDJPY at 83.248 sl: 83.698 tp: 83.098 ok
+19:29:44 2011.01.07 05:52  mGRID EA branch_dori USDJPY,M1: antes SellGoalProfit(-3044)
+19:29:44 2011.01.07 05:52  mGRID EA branch_dori USDJPY,M1: depois SellGoalProfit(2476)
+19:29:44 2011.01.07 14:23  Tester: stop loss #34 at 83.698 (83.641 / 83.727)
+19:29:44 2011.01.07 14:23  mGRID EA branch_dori USDJPY,M1: close #33 buy 0.10 USDJPY at 83.548 sl: 83.098 tp: 83.698 at price 83.641
+19:29:44 2011.01.07 14:23  mGRID EA branch_dori USDJPY,M1: delete #36 sell stop 3.68 USDJPY at 83.248 sl: 83.698 tp: 83.098 ok
+19:29:44 2011.01.07 14:24  mGRID EA branch_dori USDJPY,M1: close #35 buy 0.61 USDJPY at 83.548 sl: 83.098 tp: 83.698 at price 83.643
+19:29:44 2011.01.07 14:25  mGRID EA branch_dori USDJPY,M1: Account Balance: 25326.5324
+19:29:44 2011.01.07 14:25  mGRID EA branch_dori USDJPY,M1: open #37 buy stop 0.10 USDJPY at 83.904 sl: 83.454 tp: 84.054 ok
+19:29:44 2011.01.07 14:25  mGRID EA branch_dori USDJPY,M1: cpt(0)  BuyGoalProfit(150)
+19:29:44 2011.01.07 14:25  mGRID EA branch_dori USDJPY,M1: open #38 sell stop 0.10 USDJPY at 83.604 sl: 84.054 tp: 83.454 ok
+19:29:44 2011.01.07 14:25  mGRID EA branch_dori USDJPY,M1: cpt(0)  SellGoalProfit(149)
+19:29:44 2011.01.07 14:30  Tester: order #38, sell 0.10 USDJPY is opened at 83.604
+19:29:44 2011.01.07 14:30  mGRID EA branch_dori USDJPY,M1: BuyGoalProfit(-300)  <  SellGoalProfit*4(596)
+19:29:44 2011.01.07 14:30  mGRID EA branch_dori USDJPY,M1: op.:83.904
+19:29:44 2011.01.07 14:30  mGRID EA branch_dori USDJPY,M1: tp.:0.15
+19:29:44 2011.01.07 14:30  mGRID EA branch_dori USDJPY,M1: diferenca.:896
+19:29:44 2011.01.07 14:30  mGRID EA branch_dori USDJPY,M1: novo lote compra 0.61
+19:29:44 2011.01.07 14:30  mGRID EA branch_dori USDJPY,M1: open #39 buy stop 0.61 USDJPY at 83.904 sl: 83.454 tp: 84.054 ok
+19:29:44 2011.01.07 14:30  mGRID EA branch_dori USDJPY,M1: antes BuyGoalProfit(-300)
+19:29:44 2011.01.07 14:30  mGRID EA branch_dori USDJPY,M1: depois BuyGoalProfit(615)
+19:29:44 2011.01.07 14:31  Tester: take profit #38 at 83.454 (83.352 / 83.438)
+19:29:44 2011.01.07 14:31  mGRID EA branch_dori USDJPY,M1: delete #37 buy stop 0.10 USDJPY at 83.904 sl: 83.454 tp: 84.054 ok
+19:29:44 2011.01.07 14:32  mGRID EA branch_dori USDJPY,M1: delete #39 buy stop 0.61 USDJPY at 83.904 sl: 83.454 tp: 84.054 ok
+19:29:44 2011.01.07 14:33  mGRID EA branch_dori USDJPY,M1: Account Balance: 25344.5124
+19:29:44 2011.01.07 14:33  mGRID EA branch_dori USDJPY,M1: open #40 buy stop 0.10 USDJPY at 83.433 sl: 82.983 tp: 83.583 ok
+19:29:44 2011.01.07 14:33  mGRID EA branch_dori USDJPY,M1: cpt(0)  BuyGoalProfit(149)
+19:29:44 2011.01.07 14:33  mGRID EA branch_dori USDJPY,M1: open #41 sell stop 0.10 USDJPY at 83.133 sl: 83.583 tp: 82.983 ok
+19:29:44 2011.01.07 14:33  mGRID EA branch_dori USDJPY,M1: cpt(0)  SellGoalProfit(149)
+19:29:44 2011.01.07 14:35  Tester: order #40, buy 0.10 USDJPY is opened at 83.433
+19:29:44 2011.01.07 14:35  mGRID EA branch_dori USDJPY,M1: SellGoalProfit(-300)  <  BuyGoalProfit*4(596)
+19:29:44 2011.01.07 14:35  mGRID EA branch_dori USDJPY,M1: op.:83.133
+19:29:44 2011.01.07 14:35  mGRID EA branch_dori USDJPY,M1: tp.:1500
+19:29:44 2011.01.07 14:35  mGRID EA branch_dori USDJPY,M1: diferenca.:896
+19:29:44 2011.01.07 14:35  mGRID EA branch_dori USDJPY,M1: novo lote  venda 0.61
+19:29:44 2011.01.07 14:35  mGRID EA branch_dori USDJPY,M1: open #42 sell stop 0.61 USDJPY at 83.133 sl: 83.583 tp: 82.983 ok
+19:29:44 2011.01.07 14:35  mGRID EA branch_dori USDJPY,M1: antes SellGoalProfit(-300)
+19:29:44 2011.01.07 14:35  mGRID EA branch_dori USDJPY,M1: depois SellGoalProfit(614)
+19:29:44 2011.01.07 14:53  Tester: order #41, sell 0.10 USDJPY is opened at 83.133
+19:29:44 2011.01.07 14:53  Tester: order #42, sell 0.61 USDJPY is opened at 83.133
+19:29:44 2011.01.07 14:53  mGRID EA branch_dori USDJPY,M1: BuyGoalProfit(-3046)  <  SellGoalProfit*4(2456)
+19:29:44 2011.01.07 14:53  mGRID EA branch_dori USDJPY,M1: op.:83.433
+19:29:44 2011.01.07 14:53  mGRID EA branch_dori USDJPY,M1: tp.:0.15
+19:29:44 2011.01.07 14:53  mGRID EA branch_dori USDJPY,M1: diferenca.:5502
+19:29:44 2011.01.07 14:53  mGRID EA branch_dori USDJPY,M1: novo lote compra 3.68
+19:29:44 2011.01.07 14:53  mGRID EA branch_dori USDJPY,M1: open #43 buy stop 3.68 USDJPY at 83.433 sl: 82.983 tp: 83.583 ok
+19:29:44 2011.01.07 14:53  mGRID EA branch_dori USDJPY,M1: antes BuyGoalProfit(-3046)
+19:29:44 2011.01.07 14:53  mGRID EA branch_dori USDJPY,M1: depois BuyGoalProfit(2473)
+19:29:44 2011.01.07 16:52  Tester: stop loss #40 at 82.983 (82.987 / 83.073)
+19:29:44 2011.01.07 16:52  mGRID EA branch_dori USDJPY,M1: close #41 sell 0.10 USDJPY at 83.133 sl: 83.583 tp: 82.983 at price 83.073
+19:29:44 2011.01.07 16:52  mGRID EA branch_dori USDJPY,M1: delete #43 buy stop 3.68 USDJPY at 83.433 sl: 82.983 tp: 83.583 ok
+19:29:44 2011.01.07 16:53  mGRID EA branch_dori USDJPY,M1: close #42 sell 0.61 USDJPY at 83.133 sl: 83.583 tp: 82.983 at price 83.084
+19:29:44 2011.01.07 16:54  mGRID EA branch_dori USDJPY,M1: Account Balance: 25333.4924
+19:29:44 2011.01.07 16:54  mGRID EA branch_dori USDJPY,M1: open #44 buy stop 0.10 USDJPY at 83.230 sl: 82.780 tp: 83.380 ok
+19:29:44 2011.01.07 16:54  mGRID EA branch_dori USDJPY,M1: cpt(0)  BuyGoalProfit(149)
+19:29:44 2011.01.07 16:54  mGRID EA branch_dori USDJPY,M1: open #45 sell stop 0.10 USDJPY at 82.930 sl: 83.380 tp: 82.780 ok
+19:29:44 2011.01.07 16:54  mGRID EA branch_dori USDJPY,M1: cpt(0)  SellGoalProfit(150)
+19:29:44 2011.01.07 18:29  Tester: order #45, sell 0.10 USDJPY is opened at 82.930
+19:29:44 2011.01.07 18:29  mGRID EA branch_dori USDJPY,M1: BuyGoalProfit(-300)  <  SellGoalProfit*4(600)
+19:29:44 2011.01.07 18:29  mGRID EA branch_dori USDJPY,M1: op.:83.23
+19:29:44 2011.01.07 18:29  mGRID EA branch_dori USDJPY,M1: tp.:0.15
+19:29:44 2011.01.07 18:29  mGRID EA branch_dori USDJPY,M1: diferenca.:900
+19:29:44 2011.01.07 18:29  mGRID EA branch_dori USDJPY,M1: novo lote compra 0.61
+19:29:44 2011.01.07 18:29  mGRID EA branch_dori USDJPY,M1: open #46 buy stop 0.61 USDJPY at 83.230 sl: 82.780 tp: 83.380 ok
+19:29:44 2011.01.07 18:29  mGRID EA branch_dori USDJPY,M1: antes BuyGoalProfit(-300)
+19:29:44 2011.01.07 18:29  mGRID EA branch_dori USDJPY,M1: depois BuyGoalProfit(614)
+19:29:44 2011.01.10 07:55  Tester: order #44, buy 0.10 USDJPY is opened at 83.230
+19:29:44 2011.01.10 07:55  Tester: order #46, buy 0.61 USDJPY is opened at 83.230
+19:29:44 2011.01.10 07:55  mGRID EA branch_dori USDJPY,M1: SellGoalProfit(-3044)  <  BuyGoalProfit*4(2456)
+19:29:44 2011.01.10 07:55  mGRID EA branch_dori USDJPY,M1: op.:82.93
+19:29:44 2011.01.10 07:55  mGRID EA branch_dori USDJPY,M1: tp.:1500
+19:29:44 2011.01.10 07:55  mGRID EA branch_dori USDJPY,M1: diferenca.:5500
+19:29:44 2011.01.10 07:55  mGRID EA branch_dori USDJPY,M1: novo lote  venda 3.68
+19:29:44 2011.01.10 07:55  mGRID EA branch_dori USDJPY,M1: open #47 sell stop 3.68 USDJPY at 82.930 sl: 83.380 tp: 82.780 ok
+19:29:44 2011.01.10 07:55  mGRID EA branch_dori USDJPY,M1: antes SellGoalProfit(-3044)
+19:29:44 2011.01.10 07:55  mGRID EA branch_dori USDJPY,M1: depois SellGoalProfit(2476)
+19:29:45 2011.01.10 15:15  Tester: order #47, sell 3.68 USDJPY is opened at 82.930
+19:29:45 2011.01.10 15:15  mGRID EA branch_dori USDJPY,M1: BuyGoalProfit(-15945)  <  SellGoalProfit*4(9904)
+19:29:45 2011.01.10 15:15  mGRID EA branch_dori USDJPY,M1: op.:83.23
+19:29:45 2011.01.10 15:15  mGRID EA branch_dori USDJPY,M1: tp.:0.15
+19:29:45 2011.01.10 15:15  mGRID EA branch_dori USDJPY,M1: diferenca.:25849
+19:29:45 2011.01.10 15:15  mGRID EA branch_dori USDJPY,M1: novo lote compra 17.24
+19:29:45 2011.01.10 15:15  mGRID EA branch_dori USDJPY,M1: open #48 buy stop 17.24 USDJPY at 83.230 sl: 82.780 tp: 83.380 ok
+19:29:45 2011.01.10 15:15  mGRID EA branch_dori USDJPY,M1: antes BuyGoalProfit(-15945)
+19:29:45 2011.01.10 15:15  mGRID EA branch_dori USDJPY,M1: depois BuyGoalProfit(9914)
+19:29:45 2011.01.10 16:00  Tester: stop loss #44 at 82.780 (82.786 / 82.872)
+19:29:45 2011.01.10 16:00  Tester: stop loss #46 at 82.780 (82.786 / 82.872)
+19:29:45 2011.01.10 16:00  mGRID EA branch_dori USDJPY,M1: close #45 sell 0.10 USDJPY at 82.930 sl: 83.380 tp: 82.780 at price 82.872
+19:29:45 2011.01.10 16:00  mGRID EA branch_dori USDJPY,M1: delete #48 buy stop 17.24 USDJPY at 83.230 sl: 82.780 tp: 83.380 ok
+19:29:45 2011.01.10 16:01  mGRID EA branch_dori USDJPY,M1: close #47 sell 3.68 USDJPY at 82.930 sl: 83.380 tp: 82.780 at price 82.893
+19:29:45 2011.01.10 16:02  mGRID EA branch_dori USDJPY,M1: Account Balance: 25118.7232
+19:29:45 2011.01.10 16:02  mGRID EA branch_dori USDJPY,M1: open #49 buy stop 0.10 USDJPY at 83.073 sl: 82.623 tp: 83.223 ok
+19:29:45 2011.01.10 16:02  mGRID EA branch_dori USDJPY,M1: cpt(0)  BuyGoalProfit(150)
+19:29:45 2011.01.10 16:02  mGRID EA branch_dori USDJPY,M1: open #50 sell stop 0.10 USDJPY at 82.773 sl: 83.223 tp: 82.623 ok
+19:29:45 2011.01.10 16:02  mGRID EA branch_dori USDJPY,M1: cpt(0)  SellGoalProfit(149)
+19:29:45 2011.01.10 16:23  Tester: order #50, sell 0.10 USDJPY is opened at 82.773
+19:29:45 2011.01.10 16:23  mGRID EA branch_dori USDJPY,M1: BuyGoalProfit(-300)  <  SellGoalProfit*4(596)
+19:29:45 2011.01.10 16:23  mGRID EA branch_dori USDJPY,M1: op.:83.073
+19:29:45 2011.01.10 16:23  mGRID EA branch_dori USDJPY,M1: tp.:0.15
+19:29:45 2011.01.10 16:23  mGRID EA branch_dori USDJPY,M1: diferenca.:896
+19:29:45 2011.01.10 16:23  mGRID EA branch_dori USDJPY,M1: novo lote compra 0.61
+19:29:45 2011.01.10 16:23  mGRID EA branch_dori USDJPY,M1: open #51 buy stop 0.61 USDJPY at 83.073 sl: 82.623 tp: 83.223 ok
+19:29:45 2011.01.10 16:23  mGRID EA branch_dori USDJPY,M1: antes BuyGoalProfit(-300)
+19:29:45 2011.01.10 16:23  mGRID EA branch_dori USDJPY,M1: depois BuyGoalProfit(615)
+19:29:45 2011.01.11 02:08  Tester: order #49, buy 0.10 USDJPY is opened at 83.073
+19:29:45 2011.01.11 02:08  Tester: order #51, buy 0.61 USDJPY is opened at 83.073
+19:29:45 2011.01.11 02:08  mGRID EA branch_dori USDJPY,M1: SellGoalProfit(-3043)  <  BuyGoalProfit*4(2460)
+19:29:45 2011.01.11 02:08  mGRID EA branch_dori USDJPY,M1: op.:82.773
+19:29:45 2011.01.11 02:08  mGRID EA branch_dori USDJPY,M1: tp.:1500
+19:29:45 2011.01.11 02:08  mGRID EA branch_dori USDJPY,M1: diferenca.:5503
+19:29:45 2011.01.11 02:08  mGRID EA branch_dori USDJPY,M1: novo lote  venda 3.68
+19:29:45 2011.01.11 02:08  mGRID EA branch_dori USDJPY,M1: open #52 sell stop 3.68 USDJPY at 82.773 sl: 83.223 tp: 82.623 ok
+19:29:45 2011.01.11 02:08  mGRID EA branch_dori USDJPY,M1: antes SellGoalProfit(-3043)
+19:29:45 2011.01.11 02:08  mGRID EA branch_dori USDJPY,M1: depois SellGoalProfit(2476)
+19:29:45 2011.01.11 07:49  Tester: stop loss #50 at 83.223 (83.149 / 83.235)
+19:29:45 2011.01.11 07:49  mGRID EA branch_dori USDJPY,M1: close #49 buy 0.10 USDJPY at 83.073 sl: 82.623 tp: 83.223 at price 83.149
+19:29:45 2011.01.11 07:49  mGRID EA branch_dori USDJPY,M1: delete #52 sell stop 3.68 USDJPY at 82.773 sl: 83.223 tp: 82.623 ok
+19:29:45 2011.01.11 07:50  mGRID EA branch_dori USDJPY,M1: close #51 buy 0.61 USDJPY at 83.073 sl: 82.623 tp: 83.223 at price 83.149
+19:29:45 2011.01.11 07:51  mGRID EA branch_dori USDJPY,M1: Account Balance: 25129.454
+19:29:45 2011.01.11 07:51  mGRID EA branch_dori USDJPY,M1: open #53 buy stop 0.10 USDJPY at 83.376 sl: 82.926 tp: 83.526 ok
+19:29:45 2011.01.11 07:51  mGRID EA branch_dori USDJPY,M1: cpt(0)  BuyGoalProfit(149)
+19:29:45 2011.01.11 07:51  mGRID EA branch_dori USDJPY,M1: open #54 sell stop 0.10 USDJPY at 83.076 sl: 83.526 tp: 82.926 ok
+19:29:45 2011.01.11 07:51  mGRID EA branch_dori USDJPY,M1: cpt(0)  SellGoalProfit(149)
+19:29:45 2011.01.11 08:11  Tester: order #54, sell 0.10 USDJPY is opened at 83.076
+19:29:45 2011.01.11 08:11  mGRID EA branch_dori USDJPY,M1: BuyGoalProfit(-301)  <  SellGoalProfit*4(596)
+19:29:45 2011.01.11 08:11  mGRID EA branch_dori USDJPY,M1: op.:83.376
+19:29:45 2011.01.11 08:11  mGRID EA branch_dori USDJPY,M1: tp.:0.15
+19:29:45 2011.01.11 08:11  mGRID EA branch_dori USDJPY,M1: diferenca.:897
+19:29:45 2011.01.11 08:11  mGRID EA branch_dori USDJPY,M1: novo lote compra 0.61
+19:29:45 2011.01.11 08:11  mGRID EA branch_dori USDJPY,M1: open #55 buy stop 0.61 USDJPY at 83.376 sl: 82.926 tp: 83.526 ok
+19:29:45 2011.01.11 08:11  mGRID EA branch_dori USDJPY,M1: antes BuyGoalProfit(-301)
+19:29:45 2011.01.11 08:11  mGRID EA branch_dori USDJPY,M1: depois BuyGoalProfit(613)
+19:29:45 2011.01.11 16:16  Tester: order #53, buy 0.10 USDJPY is opened at 83.376
+19:29:45 2011.01.11 16:16  Tester: order #55, buy 0.61 USDJPY is opened at 83.376
+19:29:45 2011.01.11 16:16  mGRID EA branch_dori USDJPY,M1: SellGoalProfit(-3045)  <  BuyGoalProfit*4(2452)
+19:29:45 2011.01.11 16:16  mGRID EA branch_dori USDJPY,M1: op.:83.076
+19:29:45 2011.01.11 16:16  mGRID EA branch_dori USDJPY,M1: tp.:1500
+19:29:45 2011.01.11 16:16  mGRID EA branch_dori USDJPY,M1: diferenca.:5497
+19:29:45 2011.01.11 16:16  mGRID EA branch_dori USDJPY,M1: novo lote  venda 3.67
+19:29:45 2011.01.11 16:16  mGRID EA branch_dori USDJPY,M1: open #56 sell stop 3.67 USDJPY at 83.076 sl: 83.526 tp: 82.926 ok
+19:29:45 2011.01.11 16:16  mGRID EA branch_dori USDJPY,M1: antes SellGoalProfit(-3045)
+19:29:45 2011.01.11 16:16  mGRID EA branch_dori USDJPY,M1: depois SellGoalProfit(2459)
+19:29:45 2011.01.11 16:24  Tester: stop loss #54 at 83.526 (83.449 / 83.535)
+19:29:45 2011.01.11 16:24  mGRID EA branch_dori USDJPY,M1: close #53 buy 0.10 USDJPY at 83.376 sl: 82.926 tp: 83.526 at price 83.449
+19:29:45 2011.01.11 16:24  mGRID EA branch_dori USDJPY,M1: delete #56 sell stop 3.67 USDJPY at 83.076 sl: 83.526 tp: 82.926 ok
+19:29:45 2011.01.11 16:25  mGRID EA branch_dori USDJPY,M1: close #55 buy 0.61 USDJPY at 83.376 sl: 82.926 tp: 83.526 at price 83.477
+19:29:45 2011.01.11 16:26  mGRID EA branch_dori USDJPY,M1: Account Balance: 25158.134
+19:29:45 2011.01.11 16:26  mGRID EA branch_dori USDJPY,M1: open #57 buy stop 0.10 USDJPY at 83.706 sl: 83.256 tp: 83.856 ok
+19:29:45 2011.01.11 16:26  mGRID EA branch_dori USDJPY,M1: cpt(0)  BuyGoalProfit(149)
+19:29:45 2011.01.11 16:26  mGRID EA branch_dori USDJPY,M1: open #58 sell stop 0.10 USDJPY at 83.406 sl: 83.856 tp: 83.256 ok
+19:29:45 2011.01.11 16:26  mGRID EA branch_dori USDJPY,M1: cpt(0)  SellGoalProfit(150)
+19:29:45 2011.01.11 16:31  Tester: order #58, sell 0.10 USDJPY is opened at 83.406
+19:29:45 2011.01.11 16:31  mGRID EA branch_dori USDJPY,M1: BuyGoalProfit(-300)  <  SellGoalProfit*4(600)
+19:29:45 2011.01.11 16:31  mGRID EA branch_dori USDJPY,M1: op.:83.706
+19:29:45 2011.01.11 16:31  mGRID EA branch_dori USDJPY,M1: tp.:0.15
+19:29:45 2011.01.11 16:31  mGRID EA branch_dori USDJPY,M1: diferenca.:900
+19:29:45 2011.01.11 16:31  mGRID EA branch_dori USDJPY,M1: novo lote compra 0.61
+19:29:45 2011.01.11 16:31  mGRID EA branch_dori USDJPY,M1: open #59 buy stop 0.61 USDJPY at 83.706 sl: 83.256 tp: 83.856 ok
+19:29:45 2011.01.11 16:31  mGRID EA branch_dori USDJPY,M1: antes BuyGoalProfit(-300)
+19:29:45 2011.01.11 16:31  mGRID EA branch_dori USDJPY,M1: depois BuyGoalProfit(614)
+19:29:46 2011.01.12 04:00  Tester: take profit #58 at 83.256 (83.158 / 83.244)
+19:29:46 2011.01.12 04:00  mGRID EA branch_dori USDJPY,M1: delete #57 buy stop 0.10 USDJPY at 83.706 sl: 83.256 tp: 83.856 ok
+19:29:46 2011.01.12 04:01  mGRID EA branch_dori USDJPY,M1: delete #59 buy stop 0.61 USDJPY at 83.706 sl: 83.256 tp: 83.856 ok
+19:29:46 2011.01.12 04:02  mGRID EA branch_dori USDJPY,M1: Account Balance: 25176.0548
+19:29:46 2011.01.12 04:02  mGRID EA branch_dori USDJPY,M1: open #60 buy stop 0.10 USDJPY at 83.405 sl: 82.955 tp: 83.555 ok
+19:29:46 2011.01.12 04:02  mGRID EA branch_dori USDJPY,M1: cpt(0)  BuyGoalProfit(149)
+19:29:46 2011.01.12 04:02  mGRID EA branch_dori USDJPY,M1: open #61 sell stop 0.10 USDJPY at 83.105 sl: 83.555 tp: 82.955 ok
+19:29:46 2011.01.12 04:02  mGRID EA branch_dori USDJPY,M1: cpt(0)  SellGoalProfit(150)
+19:29:46 2011.01.12 05:09  Tester: order #61, sell 0.10 USDJPY is opened at 83.105
+19:29:46 2011.01.12 05:09  mGRID EA branch_dori USDJPY,M1: BuyGoalProfit(-300)  <  SellGoalProfit*4(600)
+19:29:46 2011.01.12 05:09  mGRID EA branch_dori USDJPY,M1: op.:83.405
+19:29:46 2011.01.12 05:09  mGRID EA branch_dori USDJPY,M1: tp.:0.15
+19:29:46 2011.01.12 05:09  mGRID EA branch_dori USDJPY,M1: diferenca.:900
+19:29:46 2011.01.12 05:09  mGRID EA branch_dori USDJPY,M1: novo lote compra 0.61
+19:29:46 2011.01.12 05:09  mGRID EA branch_dori USDJPY,M1: open #62 buy stop 0.61 USDJPY at 83.405 sl: 82.955 tp: 83.555 ok
+19:29:46 2011.01.12 05:09  mGRID EA branch_dori USDJPY,M1: antes BuyGoalProfit(-300)
+19:29:46 2011.01.12 05:09  mGRID EA branch_dori USDJPY,M1: depois BuyGoalProfit(614)
+19:29:46 2011.01.12 13:01  Tester: order #60, buy 0.10 USDJPY is opened at 83.405
+19:29:46 2011.01.12 13:01  Tester: order #62, buy 0.61 USDJPY is opened at 83.405
+19:29:46 2011.01.12 13:01  mGRID EA branch_dori USDJPY,M1: SellGoalProfit(-3044)  <  BuyGoalProfit*4(2456)
+19:29:46 2011.01.12 13:01  mGRID EA branch_dori USDJPY,M1: op.:83.105
+19:29:46 2011.01.12 13:01  mGRID EA branch_dori USDJPY,M1: tp.:1500
+19:29:46 2011.01.12 13:01  mGRID EA branch_dori USDJPY,M1: diferenca.:5500
+19:29:46 2011.01.12 13:01  mGRID EA branch_dori USDJPY,M1: novo lote  venda 3.68
+19:29:46 2011.01.12 13:01  mGRID EA branch_dori USDJPY,M1: open #63 sell stop 3.68 USDJPY at 83.105 sl: 83.555 tp: 82.955 ok
+19:29:46 2011.01.12 13:01  mGRID EA branch_dori USDJPY,M1: antes SellGoalProfit(-3044)
+19:29:46 2011.01.12 13:01  mGRID EA branch_dori USDJPY,M1: depois SellGoalProfit(2476)
+19:29:46 2011.01.12 18:29  Tester: order #63, sell 3.68 USDJPY is opened at 83.105
+19:29:46 2011.01.12 18:29  mGRID EA branch_dori USDJPY,M1: BuyGoalProfit(-15945)  <  SellGoalProfit*4(9904)
+19:29:46 2011.01.12 18:29  mGRID EA branch_dori USDJPY,M1: op.:83.405
+19:29:46 2011.01.12 18:29  mGRID EA branch_dori USDJPY,M1: tp.:0.15
+19:29:46 2011.01.12 18:29  mGRID EA branch_dori USDJPY,M1: diferenca.:25849
+19:29:46 2011.01.12 18:29  mGRID EA branch_dori USDJPY,M1: novo lote compra 17.24
+19:29:46 2011.01.12 18:29  mGRID EA branch_dori USDJPY,M1: open #64 buy stop 17.24 USDJPY at 83.405 sl: 82.955 tp: 83.555 ok
+19:29:46 2011.01.12 18:29  mGRID EA branch_dori USDJPY,M1: antes BuyGoalProfit(-15945)
+19:29:46 2011.01.12 18:29  mGRID EA branch_dori USDJPY,M1: depois BuyGoalProfit(9914)
+19:29:46 2011.01.12 19:33  Tester: stop loss #60 at 82.955 (82.953 / 83.039)
+19:29:46 2011.01.12 19:33  Tester: stop loss #62 at 82.955 (82.953 / 83.039)
+19:29:46 2011.01.12 19:33  mGRID EA branch_dori USDJPY,M1: close #61 sell 0.10 USDJPY at 83.105 sl: 83.555 tp: 82.955 at price 83.039
+19:29:46 2011.01.12 19:33  mGRID EA branch_dori USDJPY,M1: delete #64 buy stop 17.24 USDJPY at 83.405 sl: 82.955 tp: 83.555 ok
+19:29:46 2011.01.12 19:34  mGRID EA branch_dori USDJPY,M1: close #63 sell 3.68 USDJPY at 83.105 sl: 83.555 tp: 82.955 at price 83.014
+19:29:46 2011.01.12 19:35  mGRID EA branch_dori USDJPY,M1: Account Balance: 25202.2448
+19:29:46 2011.01.12 19:35  mGRID EA branch_dori USDJPY,M1: open #65 buy stop 0.10 USDJPY at 83.179 sl: 82.729 tp: 83.329 ok
+19:29:46 2011.01.12 19:35  mGRID EA branch_dori USDJPY,M1: cpt(0)  BuyGoalProfit(149)
+19:29:46 2011.01.12 19:35  mGRID EA branch_dori USDJPY,M1: open #66 sell stop 0.10 USDJPY at 82.879 sl: 83.329 tp: 82.729 ok
+19:29:46 2011.01.12 19:35  mGRID EA branch_dori USDJPY,M1: cpt(0)  SellGoalProfit(150)
+19:29:46 2011.01.12 19:53  Tester: order #66, sell 0.10 USDJPY is opened at 82.879
+19:29:46 2011.01.12 19:53  mGRID EA branch_dori USDJPY,M1: BuyGoalProfit(-300)  <  SellGoalProfit*4(600)
+19:29:46 2011.01.12 19:53  mGRID EA branch_dori USDJPY,M1: op.:83.179
+19:29:46 2011.01.12 19:53  mGRID EA branch_dori USDJPY,M1: tp.:0.15
+19:29:46 2011.01.12 19:53  mGRID EA branch_dori USDJPY,M1: diferenca.:900
+19:29:46 2011.01.12 19:53  mGRID EA branch_dori USDJPY,M1: novo lote compra 0.61
+19:29:46 2011.01.12 19:53  mGRID EA branch_dori USDJPY,M1: open #67 buy stop 0.61 USDJPY at 83.179 sl: 82.729 tp: 83.329 ok
+19:29:46 2011.01.12 19:53  mGRID EA branch_dori USDJPY,M1: antes BuyGoalProfit(-300)
+19:29:46 2011.01.12 19:53  mGRID EA branch_dori USDJPY,M1: depois BuyGoalProfit(614)
+19:29:46 2011.01.13 01:09  Tester: order #65, buy 0.10 USDJPY is opened at 83.179
+19:29:46 2011.01.13 01:09  Tester: order #67, buy 0.61 USDJPY is opened at 83.179
+19:29:46 2011.01.13 01:09  mGRID EA branch_dori USDJPY,M1: SellGoalProfit(-3044)  <  BuyGoalProfit*4(2456)
+19:29:46 2011.01.13 01:09  mGRID EA branch_dori USDJPY,M1: op.:82.879
+19:29:46 2011.01.13 01:09  mGRID EA branch_dori USDJPY,M1: tp.:1500
+19:29:46 2011.01.13 01:09  mGRID EA branch_dori USDJPY,M1: diferenca.:5500
+19:29:46 2011.01.13 01:09  mGRID EA branch_dori USDJPY,M1: novo lote  venda 3.68
+19:29:46 2011.01.13 01:09  mGRID EA branch_dori USDJPY,M1: open #68 sell stop 3.68 USDJPY at 82.879 sl: 83.329 tp: 82.729 ok
+19:29:46 2011.01.13 01:09  mGRID EA branch_dori USDJPY,M1: antes SellGoalProfit(-3044)
+19:29:46 2011.01.13 01:09  mGRID EA branch_dori USDJPY,M1: depois SellGoalProfit(2476)
+19:29:46 2011.01.13 14:09  Tester: order #68, sell 3.68 USDJPY is opened at 82.879
+19:29:46 2011.01.13 14:09  mGRID EA branch_dori USDJPY,M1: BuyGoalProfit(-15945)  <  SellGoalProfit*4(9904)
+19:29:46 2011.01.13 14:09  mGRID EA branch_dori USDJPY,M1: op.:83.179
+19:29:46 2011.01.13 14:09  mGRID EA branch_dori USDJPY,M1: tp.:0.15
+19:29:46 2011.01.13 14:09  mGRID EA branch_dori USDJPY,M1: diferenca.:25849
+19:29:46 2011.01.13 14:09  mGRID EA branch_dori USDJPY,M1: novo lote compra 17.24
+19:29:46 2011.01.13 14:09  mGRID EA branch_dori USDJPY,M1: open #69 buy stop 17.24 USDJPY at 83.179 sl: 82.729 tp: 83.329 ok
+19:29:46 2011.01.13 14:09  mGRID EA branch_dori USDJPY,M1: antes BuyGoalProfit(-15945)
+19:29:46 2011.01.13 14:09  mGRID EA branch_dori USDJPY,M1: depois BuyGoalProfit(9914)
+19:29:46 2011.01.13 14:39  Tester: stop loss #65 at 82.729 (82.734 / 82.820)
+19:29:46 2011.01.13 14:39  Tester: stop loss #67 at 82.729 (82.734 / 82.820)
+19:29:46 2011.01.13 14:39  mGRID EA branch_dori USDJPY,M1: close #66 sell 0.10 USDJPY at 82.879 sl: 83.329 tp: 82.729 at price 82.820
+19:29:46 2011.01.13 14:39  mGRID EA branch_dori USDJPY,M1: delete #69 buy stop 17.24 USDJPY at 83.179 sl: 82.729 tp: 83.329 ok
+19:29:46 2011.01.13 14:40  mGRID EA branch_dori USDJPY,M1: close #68 sell 3.68 USDJPY at 82.879 sl: 83.329 tp: 82.729 at price 82.841
+19:29:46 2011.01.13 14:41  mGRID EA branch_dori USDJPY,M1: Account Balance: 24991.6972
+19:29:46 2011.01.13 14:41  mGRID EA branch_dori USDJPY,M1: open #70 buy stop 0.10 USDJPY at 82.990 sl: 82.540 tp: 83.140 ok
+19:29:46 2011.01.13 14:41  mGRID EA branch_dori USDJPY,M1: cpt(0)  BuyGoalProfit(150)
+19:29:46 2011.01.13 14:41  mGRID EA branch_dori USDJPY,M1: open #71 sell stop 0.10 USDJPY at 82.690 sl: 83.140 tp: 82.540 ok
+19:29:46 2011.01.13 14:41  mGRID EA branch_dori USDJPY,M1: cpt(0)  SellGoalProfit(149)
+19:29:46 2011.01.13 14:47  Tester: order #71, sell 0.10 USDJPY is opened at 82.690
+19:29:46 2011.01.13 14:47  mGRID EA branch_dori USDJPY,M1: BuyGoalProfit(-300)  <  SellGoalProfit*4(596)
+19:29:46 2011.01.13 14:47  mGRID EA branch_dori USDJPY,M1: op.:82.99
+19:29:46 2011.01.13 14:47  mGRID EA branch_dori USDJPY,M1: tp.:0.15
+19:29:46 2011.01.13 14:47  mGRID EA branch_dori USDJPY,M1: diferenca.:896
+19:29:46 2011.01.13 14:47  mGRID EA branch_dori USDJPY,M1: novo lote compra 0.61
+19:29:46 2011.01.13 14:47  mGRID EA branch_dori USDJPY,M1: open #72 buy stop 0.61 USDJPY at 82.990 sl: 82.540 tp: 83.140 ok
+19:29:46 2011.01.13 14:47  mGRID EA branch_dori USDJPY,M1: antes BuyGoalProfit(-300)
+19:29:46 2011.01.13 14:47  mGRID EA branch_dori USDJPY,M1: depois BuyGoalProfit(615)
+19:29:46 2011.01.13 16:00  Tester: order #70, buy 0.10 USDJPY is opened at 82.990
+19:29:46 2011.01.13 16:00  Tester: order #72, buy 0.61 USDJPY is opened at 82.990
+19:29:46 2011.01.13 16:00  mGRID EA branch_dori USDJPY,M1: SellGoalProfit(-3043)  <  BuyGoalProfit*4(2460)
+19:29:46 2011.01.13 16:00  mGRID EA branch_dori USDJPY,M1: op.:82.69
+19:29:46 2011.01.13 16:00  mGRID EA branch_dori USDJPY,M1: tp.:1500
+19:29:46 2011.01.13 16:00  mGRID EA branch_dori USDJPY,M1: diferenca.:5503
+19:29:46 2011.01.13 16:00  mGRID EA branch_dori USDJPY,M1: novo lote  venda 3.68
+19:29:46 2011.01.13 16:00  mGRID EA branch_dori USDJPY,M1: open #73 sell stop 3.68 USDJPY at 82.690 sl: 83.140 tp: 82.540 ok
+19:29:46 2011.01.13 16:00  mGRID EA branch_dori USDJPY,M1: antes SellGoalProfit(-3043)
+19:29:46 2011.01.13 16:00  mGRID EA branch_dori USDJPY,M1: depois SellGoalProfit(2476)
+19:29:46 2011.01.13 17:35  Tester: order #73, sell 3.68 USDJPY is opened at 82.690
+19:29:46 2011.01.13 17:35  mGRID EA branch_dori USDJPY,M1: BuyGoalProfit(-15945)  <  SellGoalProfit*4(9904)
+19:29:46 2011.01.13 17:35  mGRID EA branch_dori USDJPY,M1: op.:82.99
+19:29:46 2011.01.13 17:35  mGRID EA branch_dori USDJPY,M1: tp.:0.15
+19:29:46 2011.01.13 17:35  mGRID EA branch_dori USDJPY,M1: diferenca.:25849
+19:29:46 2011.01.13 17:35  mGRID EA branch_dori USDJPY,M1: novo lote compra 17.24
+19:29:46 2011.01.13 17:35  mGRID EA branch_dori USDJPY,M1: open #74 buy stop 17.24 USDJPY at 82.990 sl: 82.540 tp: 83.140 ok
+19:29:46 2011.01.13 17:35  mGRID EA branch_dori USDJPY,M1: antes BuyGoalProfit(-15945)
+19:29:46 2011.01.13 17:35  mGRID EA branch_dori USDJPY,M1: depois BuyGoalProfit(9915)
+19:29:47 2011.01.14 06:13  Tester: stop loss #70 at 82.540 (82.524 / 82.610)
+19:29:47 2011.01.14 06:13  Tester: stop loss #72 at 82.540 (82.524 / 82.610)
+19:29:47 2011.01.14 06:13  mGRID EA branch_dori USDJPY,M1: close #71 sell 0.10 USDJPY at 82.690 sl: 83.140 tp: 82.540 at price 82.610
+19:29:47 2011.01.14 06:13  mGRID EA branch_dori USDJPY,M1: delete #74 buy stop 17.24 USDJPY at 82.990 sl: 82.540 tp: 83.140 ok
+19:29:47 2011.01.14 06:14  mGRID EA branch_dori USDJPY,M1: close #73 sell 3.68 USDJPY at 82.690 sl: 83.140 tp: 82.540 at price 82.605
+19:29:47 2011.01.14 06:15  mGRID EA branch_dori USDJPY,M1: Account Balance: 24989.13744
+19:29:47 2011.01.14 06:15  mGRID EA branch_dori USDJPY,M1: open #75 buy stop 0.10 USDJPY at 82.760 sl: 82.310 tp: 82.910 ok
+19:29:47 2011.01.14 06:15  mGRID EA branch_dori USDJPY,M1: cpt(0)  BuyGoalProfit(149)
+19:29:47 2011.01.14 06:15  mGRID EA branch_dori USDJPY,M1: open #76 sell stop 0.10 USDJPY at 82.460 sl: 82.910 tp: 82.310 ok
+19:29:47 2011.01.14 06:15  mGRID EA branch_dori USDJPY,M1: cpt(0)  SellGoalProfit(149)
+19:29:47 2011.01.14 09:22  Tester: order #76, sell 0.10 USDJPY is opened at 82.460
+19:29:47 2011.01.14 09:22  mGRID EA branch_dori USDJPY,M1: BuyGoalProfit(-301)  <  SellGoalProfit*4(596)
+19:29:47 2011.01.14 09:22  mGRID EA branch_dori USDJPY,M1: op.:82.76
+19:29:47 2011.01.14 09:22  mGRID EA branch_dori USDJPY,M1: tp.:0.15
+19:29:47 2011.01.14 09:22  mGRID EA branch_dori USDJPY,M1: diferenca.:897
+19:29:47 2011.01.14 09:22  mGRID EA branch_dori USDJPY,M1: novo lote compra 0.61
+19:29:47 2011.01.14 09:22  mGRID EA branch_dori USDJPY,M1: open #77 buy stop 0.61 USDJPY at 82.760 sl: 82.310 tp: 82.910 ok
+19:29:47 2011.01.14 09:22  mGRID EA branch_dori USDJPY,M1: antes BuyGoalProfit(-301)
+19:29:47 2011.01.14 09:22  mGRID EA branch_dori USDJPY,M1: depois BuyGoalProfit(613)
+19:29:47 2011.01.14 10:30  Tester: order #75, buy 0.10 USDJPY is opened at 82.760
+19:29:47 2011.01.14 10:30  Tester: order #77, buy 0.61 USDJPY is opened at 82.760
+19:29:47 2011.01.14 10:30  mGRID EA branch_dori USDJPY,M1: SellGoalProfit(-3045)  <  BuyGoalProfit*4(2452)
+19:29:47 2011.01.14 10:30  mGRID EA branch_dori USDJPY,M1: op.:82.46
+19:29:47 2011.01.14 10:30  mGRID EA branch_dori USDJPY,M1: tp.:1500
+19:29:47 2011.01.14 10:30  mGRID EA branch_dori USDJPY,M1: diferenca.:5497
+19:29:47 2011.01.14 10:30  mGRID EA branch_dori USDJPY,M1: novo lote  venda 3.67
+19:29:47 2011.01.14 10:30  mGRID EA branch_dori USDJPY,M1: open #78 sell stop 3.67 USDJPY at 82.460 sl: 82.910 tp: 82.310 ok
+19:29:47 2011.01.14 10:30  mGRID EA branch_dori USDJPY,M1: antes SellGoalProfit(-3045)
+19:29:47 2011.01.14 10:30  mGRID EA branch_dori USDJPY,M1: depois SellGoalProfit(2459)
+19:29:47 2011.01.14 10:45  Tester: stop loss #76 at 82.910 (82.824 / 82.910)
+19:29:47 2011.01.14 10:45  mGRID EA branch_dori USDJPY,M1: close #75 buy 0.10 USDJPY at 82.760 sl: 82.310 tp: 82.910 at price 82.824
+19:29:47 2011.01.14 10:45  mGRID EA branch_dori USDJPY,M1: delete #78 sell stop 3.67 USDJPY at 82.460 sl: 82.910 tp: 82.310 ok
+19:29:47 2011.01.14 10:46  mGRID EA branch_dori USDJPY,M1: close #77 buy 0.61 USDJPY at 82.760 sl: 82.310 tp: 82.910 at price 82.835
+19:29:47 2011.01.14 10:47  mGRID EA branch_dori USDJPY,M1: Account Balance: 24997.81744
+19:29:47 2011.01.14 10:47  mGRID EA branch_dori USDJPY,M1: open #79 buy stop 0.10 USDJPY at 83.063 sl: 82.613 tp: 83.213 ok
+19:29:47 2011.01.14 10:47  mGRID EA branch_dori USDJPY,M1: cpt(0)  BuyGoalProfit(149)
+19:29:47 2011.01.14 10:47  mGRID EA branch_dori USDJPY,M1: open #80 sell stop 0.10 USDJPY at 82.763 sl: 83.213 tp: 82.613 ok
+19:29:47 2011.01.14 10:47  mGRID EA branch_dori USDJPY,M1: cpt(0)  SellGoalProfit(150)
+19:29:47 2011.01.14 12:20  Tester: order #80, sell 0.10 USDJPY is opened at 82.763
+19:29:47 2011.01.14 12:20  mGRID EA branch_dori USDJPY,M1: BuyGoalProfit(-300)  <  SellGoalProfit*4(600)
+19:29:47 2011.01.14 12:20  mGRID EA branch_dori USDJPY,M1: op.:83.063
+19:29:47 2011.01.14 12:20  mGRID EA branch_dori USDJPY,M1: tp.:0.15
+19:29:47 2011.01.14 12:20  mGRID EA branch_dori USDJPY,M1: diferenca.:900
+19:29:47 2011.01.14 12:20  mGRID EA branch_dori USDJPY,M1: novo lote compra 0.61
+19:29:47 2011.01.14 12:20  mGRID EA branch_dori USDJPY,M1: open #81 buy stop 0.61 USDJPY at 83.063 sl: 82.613 tp: 83.213 ok
+19:29:47 2011.01.14 12:20  mGRID EA branch_dori USDJPY,M1: antes BuyGoalProfit(-300)
+19:29:47 2011.01.14 12:20  mGRID EA branch_dori USDJPY,M1: depois BuyGoalProfit(614)
+19:29:47 2011.01.14 16:16  Tester: take profit #80 at 82.613 (82.517 / 82.603)
+19:29:47 2011.01.14 16:16  mGRID EA branch_dori USDJPY,M1: delete #79 buy stop 0.10 USDJPY at 83.063 sl: 82.613 tp: 83.213 ok
+19:29:47 2011.01.14 16:17  mGRID EA branch_dori USDJPY,M1: delete #81 buy stop 0.61 USDJPY at 83.063 sl: 82.613 tp: 83.213 ok
+19:29:47 2011.01.14 16:18  mGRID EA branch_dori USDJPY,M1: Account Balance: 25015.97744
+19:29:47 2011.01.14 16:18  mGRID EA branch_dori USDJPY,M1: open #82 buy stop 0.10 USDJPY at 82.769 sl: 82.319 tp: 82.919 ok
+19:29:47 2011.01.14 16:18  mGRID EA branch_dori USDJPY,M1: cpt(0)  BuyGoalProfit(149)
+19:29:47 2011.01.14 16:18  mGRID EA branch_dori USDJPY,M1: open #83 sell stop 0.10 USDJPY at 82.469 sl: 82.919 tp: 82.319 ok
+19:29:47 2011.01.14 16:18  mGRID EA branch_dori USDJPY,M1: cpt(0)  SellGoalProfit(149)
+19:29:47 2011.01.14 16:34  Tester: order #82, buy 0.10 USDJPY is opened at 82.769
+19:29:47 2011.01.14 16:34  mGRID EA branch_dori USDJPY,M1: SellGoalProfit(-300)  <  BuyGoalProfit*4(596)
+19:29:47 2011.01.14 16:34  mGRID EA branch_dori USDJPY,M1: op.:82.469
+19:29:47 2011.01.14 16:34  mGRID EA branch_dori USDJPY,M1: tp.:1500
+19:29:47 2011.01.14 16:34  mGRID EA branch_dori USDJPY,M1: diferenca.:896
+19:29:47 2011.01.14 16:34  mGRID EA branch_dori USDJPY,M1: novo lote  venda 0.61
+19:29:47 2011.01.14 16:34  mGRID EA branch_dori USDJPY,M1: open #84 sell stop 0.61 USDJPY at 82.469 sl: 82.919 tp: 82.319 ok
+19:29:47 2011.01.14 16:34  mGRID EA branch_dori USDJPY,M1: antes SellGoalProfit(-300)
+19:29:47 2011.01.14 16:34  mGRID EA branch_dori USDJPY,M1: depois SellGoalProfit(614)
+19:29:47 2011.01.14 17:35  Tester: take profit #82 at 82.919 (82.910 / 82.996)
+19:29:47 2011.01.14 17:35  mGRID EA branch_dori USDJPY,M1: delete #83 sell stop 0.10 USDJPY at 82.469 sl: 82.919 tp: 82.319 ok
+19:29:47 2011.01.14 17:36  mGRID EA branch_dori USDJPY,M1: delete #84 sell stop 0.61 USDJPY at 82.469 sl: 82.919 tp: 82.319 ok
+19:29:47 2011.01.14 17:37  mGRID EA branch_dori USDJPY,M1: Account Balance: 25034.07744
+19:29:47 2011.01.14 17:37  mGRID EA branch_dori USDJPY,M1: open #85 buy stop 0.10 USDJPY at 83.145 sl: 82.695 tp: 83.295 ok
+19:29:47 2011.01.14 17:37  mGRID EA branch_dori USDJPY,M1: cpt(0)  BuyGoalProfit(150)
+19:29:47 2011.01.14 17:37  mGRID EA branch_dori USDJPY,M1: open #86 sell stop 0.10 USDJPY at 82.845 sl: 83.295 tp: 82.695 ok
+19:29:47 2011.01.14 17:37  mGRID EA branch_dori USDJPY,M1: cpt(0)  SellGoalProfit(149)
+19:29:47 2011.01.14 17:38  mGRID EA branch_dori USDJPY,M1: delete #85 buy stop 0.10 USDJPY at 83.145 sl: 82.695 tp: 83.295 ok
+19:29:47 2011.01.14 17:39  mGRID EA branch_dori USDJPY,M1: delete #86 sell stop 0.10 USDJPY at 82.845 sl: 83.295 tp: 82.695 ok
+19:29:47 2011.01.14 17:40  mGRID EA branch_dori USDJPY,M1: Account Balance: 25034.07744
+19:29:47 2011.01.14 17:40  mGRID EA branch_dori USDJPY,M1: open #87 buy stop 0.10 USDJPY at 83.154 sl: 82.704 tp: 83.304 ok
+19:29:47 2011.01.14 17:40  mGRID EA branch_dori USDJPY,M1: cpt(0)  BuyGoalProfit(150)
+19:29:47 2011.01.14 17:40  mGRID EA branch_dori USDJPY,M1: open #88 sell stop 0.10 USDJPY at 82.854 sl: 83.304 tp: 82.704 ok
+19:29:47 2011.01.14 17:40  mGRID EA branch_dori USDJPY,M1: cpt(0)  SellGoalProfit(149)
+19:29:47 2011.01.14 18:22  Tester: order #88, sell 0.10 USDJPY is opened at 82.854
+19:29:47 2011.01.14 18:22  mGRID EA branch_dori USDJPY,M1: BuyGoalProfit(-300)  <  SellGoalProfit*4(596)
+19:29:47 2011.01.14 18:22  mGRID EA branch_dori USDJPY,M1: op.:83.154
+19:29:47 2011.01.14 18:22  mGRID EA branch_dori USDJPY,M1: tp.:0.15
+19:29:47 2011.01.14 18:22  mGRID EA branch_dori USDJPY,M1: diferenca.:896
+19:29:47 2011.01.14 18:22  mGRID EA branch_dori USDJPY,M1: novo lote compra 0.61
+19:29:47 2011.01.14 18:22  mGRID EA branch_dori USDJPY,M1: open #89 buy stop 0.61 USDJPY at 83.154 sl: 82.704 tp: 83.304 ok
+19:29:47 2011.01.14 18:22  mGRID EA branch_dori USDJPY,M1: antes BuyGoalProfit(-300)
+19:29:47 2011.01.14 18:22  mGRID EA branch_dori USDJPY,M1: depois BuyGoalProfit(615)
+19:29:47 2011.01.17 11:57  Tester: take profit #88 at 82.704 (82.601 / 82.687)
+19:29:47 2011.01.17 11:57  mGRID EA branch_dori USDJPY,M1: delete #87 buy stop 0.10 USDJPY at 83.154 sl: 82.704 tp: 83.304 ok
+19:29:47 2011.01.17 11:58  mGRID EA branch_dori USDJPY,M1: delete #89 buy stop 0.61 USDJPY at 83.154 sl: 82.704 tp: 83.304 ok
+19:29:47 2011.01.17 11:59  mGRID EA branch_dori USDJPY,M1: Account Balance: 25052.11824
+19:29:47 2011.01.17 11:59  mGRID EA branch_dori USDJPY,M1: open #90 buy stop 0.10 USDJPY at 82.841 sl: 82.391 tp: 82.991 ok
+19:29:47 2011.01.17 11:59  mGRID EA branch_dori USDJPY,M1: cpt(0)  BuyGoalProfit(150)
+19:29:47 2011.01.17 11:59  mGRID EA branch_dori USDJPY,M1: open #91 sell stop 0.10 USDJPY at 82.541 sl: 82.991 tp: 82.391 ok
+19:29:47 2011.01.17 11:59  mGRID EA branch_dori USDJPY,M1: cpt(0)  SellGoalProfit(149)
+19:29:47 2011.01.17 12:51  Tester: order #91, sell 0.10 USDJPY is opened at 82.541
+19:29:47 2011.01.17 12:51  mGRID EA branch_dori USDJPY,M1: BuyGoalProfit(-300)  <  SellGoalProfit*4(596)
+19:29:47 2011.01.17 12:51  mGRID EA branch_dori USDJPY,M1: op.:82.841
+19:29:47 2011.01.17 12:51  mGRID EA branch_dori USDJPY,M1: tp.:0.15
+19:29:47 2011.01.17 12:51  mGRID EA branch_dori USDJPY,M1: diferenca.:896
+19:29:47 2011.01.17 12:51  mGRID EA branch_dori USDJPY,M1: novo lote compra 0.61
+19:29:47 2011.01.17 12:51  mGRID EA branch_dori USDJPY,M1: open #92 buy stop 0.61 USDJPY at 82.841 sl: 82.391 tp: 82.991 ok
+19:29:47 2011.01.17 12:51  mGRID EA branch_dori USDJPY,M1: antes BuyGoalProfit(-300)
+19:29:47 2011.01.17 12:51  mGRID EA branch_dori USDJPY,M1: depois BuyGoalProfit(615)
+19:29:47 2011.01.17 18:20  Tester: order #90, buy 0.10 USDJPY is opened at 82.841
+19:29:47 2011.01.17 18:20  Tester: order #92, buy 0.61 USDJPY is opened at 82.841
+19:29:47 2011.01.17 18:20  mGRID EA branch_dori USDJPY,M1: SellGoalProfit(-3043)  <  BuyGoalProfit*4(2460)
+19:29:47 2011.01.17 18:20  mGRID EA branch_dori USDJPY,M1: op.:82.541
+19:29:47 2011.01.17 18:20  mGRID EA branch_dori USDJPY,M1: tp.:1500
+19:29:47 2011.01.17 18:20  mGRID EA branch_dori USDJPY,M1: diferenca.:5503
+19:29:47 2011.01.17 18:20  mGRID EA branch_dori USDJPY,M1: novo lote  venda 3.68
+19:29:47 2011.01.17 18:20  mGRID EA branch_dori USDJPY,M1: open #93 sell stop 3.68 USDJPY at 82.541 sl: 82.991 tp: 82.391 ok
+19:29:47 2011.01.17 18:20  mGRID EA branch_dori USDJPY,M1: antes SellGoalProfit(-3043)
+19:29:47 2011.01.17 18:20  mGRID EA branch_dori USDJPY,M1: depois SellGoalProfit(2476)
+19:29:47 2011.01.18 02:55  Tester: order #93, sell 3.68 USDJPY is opened at 82.541
+19:29:47 2011.01.18 02:55  mGRID EA branch_dori USDJPY,M1: BuyGoalProfit(-15945)  <  SellGoalProfit*4(9904)
+19:29:47 2011.01.18 02:55  mGRID EA branch_dori USDJPY,M1: op.:82.841
+19:29:47 2011.01.18 02:55  mGRID EA branch_dori USDJPY,M1: tp.:0.15
+19:29:47 2011.01.18 02:55  mGRID EA branch_dori USDJPY,M1: diferenca.:25849
+19:29:47 2011.01.18 02:55  mGRID EA branch_dori USDJPY,M1: novo lote compra 17.24
+19:29:47 2011.01.18 02:55  mGRID EA branch_dori USDJPY,M1: open #94 buy stop 17.24 USDJPY at 82.841 sl: 82.391 tp: 82.991 ok
+19:29:47 2011.01.18 02:55  mGRID EA branch_dori USDJPY,M1: antes BuyGoalProfit(-15945)
+19:29:47 2011.01.18 02:55  mGRID EA branch_dori USDJPY,M1: depois BuyGoalProfit(9915)
+19:29:47 2011.01.18 10:18  Tester: stop loss #90 at 82.391 (82.388 / 82.474)
+19:29:47 2011.01.18 10:18  Tester: stop loss #92 at 82.391 (82.388 / 82.474)
+19:29:47 2011.01.18 10:18  mGRID EA branch_dori USDJPY,M1: close #91 sell 0.10 USDJPY at 82.541 sl: 82.991 tp: 82.391 at price 82.474
+19:29:47 2011.01.18 10:18  mGRID EA branch_dori USDJPY,M1: delete #94 buy stop 17.24 USDJPY at 82.841 sl: 82.391 tp: 82.991 ok
+19:29:47 2011.01.18 10:19  mGRID EA branch_dori USDJPY,M1: close #93 sell 3.68 USDJPY at 82.541 sl: 82.991 tp: 82.391 at price 82.472
+19:29:47 2011.01.18 10:20  mGRID EA branch_dori USDJPY,M1: Account Balance: 24980.22904
+19:29:47 2011.01.18 10:20  mGRID EA branch_dori USDJPY,M1: open #95 buy stop 0.10 USDJPY at 82.621 sl: 82.171 tp: 82.771 ok
+19:29:47 2011.01.18 10:20  mGRID EA branch_dori USDJPY,M1: cpt(0)  BuyGoalProfit(150)
+19:29:47 2011.01.18 10:20  mGRID EA branch_dori USDJPY,M1: open #96 sell stop 0.10 USDJPY at 82.321 sl: 82.771 tp: 82.171 ok
+19:29:47 2011.01.18 10:20  mGRID EA branch_dori USDJPY,M1: cpt(0)  SellGoalProfit(149)
+19:29:47 2011.01.18 11:08  Tester: order #95, buy 0.10 USDJPY is opened at 82.621
+19:29:47 2011.01.18 11:08  mGRID EA branch_dori USDJPY,M1: SellGoalProfit(-299)  <  BuyGoalProfit*4(600)
+19:29:47 2011.01.18 11:08  mGRID EA branch_dori USDJPY,M1: op.:82.321
+19:29:47 2011.01.18 11:08  mGRID EA branch_dori USDJPY,M1: tp.:1500
+19:29:47 2011.01.18 11:08  mGRID EA branch_dori USDJPY,M1: diferenca.:899
+19:29:47 2011.01.18 11:08  mGRID EA branch_dori USDJPY,M1: novo lote  venda 0.61
+19:29:47 2011.01.18 11:08  mGRID EA branch_dori USDJPY,M1: open #97 sell stop 0.61 USDJPY at 82.321 sl: 82.771 tp: 82.171 ok
+19:29:47 2011.01.18 11:08  mGRID EA branch_dori USDJPY,M1: antes SellGoalProfit(-299)
+19:29:47 2011.01.18 11:08  mGRID EA branch_dori USDJPY,M1: depois SellGoalProfit(615)
+19:29:47 2011.01.18 16:46  Tester: take profit #95 at 82.771 (82.776 / 82.862)
+19:29:47 2011.01.18 16:46  mGRID EA branch_dori USDJPY,M1: delete #96 sell stop 0.10 USDJPY at 82.321 sl: 82.771 tp: 82.171 ok
+19:29:47 2011.01.18 16:47  mGRID EA branch_dori USDJPY,M1: delete #97 sell stop 0.61 USDJPY at 82.321 sl: 82.771 tp: 82.171 ok
+19:29:47 2011.01.18 16:48  mGRID EA branch_dori USDJPY,M1: Account Balance: 24998.35904
+19:29:47 2011.01.18 16:48  mGRID EA branch_dori USDJPY,M1: open #98 buy stop 0.10 USDJPY at 82.976 sl: 82.526 tp: 83.126 ok
+19:29:47 2011.01.18 16:48  mGRID EA branch_dori USDJPY,M1: cpt(0)  BuyGoalProfit(149)
+19:29:47 2011.01.18 16:48  mGRID EA branch_dori USDJPY,M1: open #99 sell stop 0.10 USDJPY at 82.676 sl: 83.126 tp: 82.526 ok
+19:29:47 2011.01.18 16:48  mGRID EA branch_dori USDJPY,M1: cpt(0)  SellGoalProfit(150)
+19:29:47 2011.01.18 17:01  Tester: order #99, sell 0.10 USDJPY is opened at 82.676
+19:29:47 2011.01.18 17:01  mGRID EA branch_dori USDJPY,M1: BuyGoalProfit(-300)  <  SellGoalProfit*4(600)
+19:29:47 2011.01.18 17:01  mGRID EA branch_dori USDJPY,M1: op.:82.976
+19:29:47 2011.01.18 17:01  mGRID EA branch_dori USDJPY,M1: tp.:0.15
+19:29:47 2011.01.18 17:01  mGRID EA branch_dori USDJPY,M1: diferenca.:900
+19:29:47 2011.01.18 17:01  mGRID EA branch_dori USDJPY,M1: novo lote compra 0.61
+19:29:47 2011.01.18 17:01  mGRID EA branch_dori USDJPY,M1: open #100 buy stop 0.61 USDJPY at 82.976 sl: 82.526 tp: 83.126 ok
+19:29:47 2011.01.18 17:01  mGRID EA branch_dori USDJPY,M1: antes BuyGoalProfit(-300)
+19:29:47 2011.01.18 17:01  mGRID EA branch_dori USDJPY,M1: depois BuyGoalProfit(614)
+19:29:50 2011.01.18 17:53  Tester: stop button pressed
+19:29:50 2011.01.18 17:53  Tester: order #99 is closed
+19:29:50 USDJPY,M1: 16689 tick events (739119 bars, 1475089 bar states) processed within 35053 ms (total time 36473 ms)
