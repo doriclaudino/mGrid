@@ -13,13 +13,6 @@ extern int       MovingAvarageSlow = 25;
 extern int       MovingAvarageNorm = 8;
 extern int       MovingAvarageFast = 3;
 
-bool okToTrade;
-int oldbar;
-int directionMACD = 0;
-int countAboveMA = 0;
-int directionCross = 0;//Será considerado 1 compra e -1 venda
-
-
 //+------------------------------------------------------------------+
 
 bool Enter = true;
@@ -40,6 +33,7 @@ int start() {
     int ticket, cpt, total = 0, BuyGoalProfit, SellGoalProfit;
     double BuyGoal = 0, SellGoal = 0, InitialPrice = 0;
     //----   
+    
 
     if (INCREMENT < MarketInfo(Symbol(), MODE_STOPLEVEL)) INCREMENT = 1 + MarketInfo(Symbol(), MODE_STOPLEVEL);
     if (LOTS < MarketInfo(Symbol(), MODE_MINLOT)) {
@@ -58,33 +52,43 @@ int start() {
             Print("Not enough free margin to begin");
             return (0);
         }
-        RefreshRates();
-        Print("Account Balance: "+AccountBalance());
-        InitialPrice = Ask - INCREMENT * Point;
-        SellGoal = InitialPrice - 2 * INCREMENT * Point;
-        BuyGoal = InitialPrice + 2 * INCREMENT * Point;
         
+        
+         double iStoc = iStochastic(NULL,PERIOD_H1,5,3,3,MODE_SMA,0,MODE_MAIN,0); 
+         double fast = iMA(NULL, PERIOD_H1, MovingAvarageFast, 0, MODE_SMA, PRICE_CLOSE, 0);
+         double norm = iMA(NULL, PERIOD_H1, MovingAvarageNorm, 0, MODE_SMA, PRICE_CLOSE, 0);
+         double slow = iMA(NULL, PERIOD_H1, MovingAvarageSlow, 0, MODE_SMA, PRICE_CLOSE, 0);
          
-         ticket = OrderSend(Symbol(), OP_BUYSTOP, LOTS, Ask, 2, SellGoal, BuyGoal, DoubleToStr(InitialPrice, MarketInfo(Symbol(), MODE_DIGITS)), MAGIC, 0);
-         if (ticket > 0) {
-             BuyGoalProfit = CheckProfits(OP_BUY, InitialPrice);
-             Print("cpt(" + cpt + ")  BuyGoalProfit(" + BuyGoalProfit + ")");
-         }else{
-            Print("Cannot trade, error: ",ErrorDescription(GetLastError()));  
-            PrintFormat("OP:"+(InitialPrice +  INCREMENT * Point)+" SL:"+SellGoal+" TP:"+BuyGoal);
-            Print("Bid-SL:"+(Bid-SellGoal)+" > Freeze Level:"+MarketInfo(Symbol(),MODE_FREEZELEVEL));
-            Print("Bid-SL:"+(Bid-SellGoal)+" >= Stop Level:"+MarketInfo(Symbol(),MODE_STOPLEVEL));
+         if(iStoc > 95 || iStoc < 5){
+            if(fast>norm && norm > slow){ //compra
+              RefreshRates();
+              InitialPrice = Ask - INCREMENT * Point;
+              SellGoal = InitialPrice - 2 * INCREMENT * Point;
+              BuyGoal = InitialPrice + 2 * INCREMENT * Point;
+               
+            
+               ticket = OrderSend(Symbol(), OP_BUY, LOTS, Ask , 2, SellGoal, BuyGoal, DoubleToStr(InitialPrice, MarketInfo(Symbol(), MODE_DIGITS)), MAGIC, 0);
+               if (ticket > 0) {
+                   BuyGoalProfit = CheckProfits(OP_BUY, InitialPrice);
+               }else{
+                  Print("Cannot trade, error: ",ErrorDescription(GetLastError()));  
+                  PrintFormat("OP:"+(InitialPrice +  INCREMENT * Point)+" SL:"+SellGoal+" TP:"+BuyGoal);
+               }
+            }else if(fast<norm && norm < slow){//venda
+              RefreshRates();
+              InitialPrice = Bid + INCREMENT * Point;
+              SellGoal = InitialPrice - 2 * INCREMENT * Point;
+              BuyGoal = InitialPrice + 2 * INCREMENT * Point;
+            
+               ticket = OrderSend(Symbol(), OP_SELL, LOTS, Bid , 2, BuyGoal, SellGoal, DoubleToStr(InitialPrice, MarketInfo(Symbol(), MODE_DIGITS)), MAGIC, 0);
+               if (ticket > 0) {
+                   BuyGoalProfit = CheckProfits(OP_BUY, InitialPrice);
+               }else{
+                  Print("Cannot trade, error: ",ErrorDescription(GetLastError()));  
+                  PrintFormat("OP:"+(InitialPrice +  INCREMENT * Point)+" SL:"+SellGoal+" TP:"+BuyGoal);
+               }            
+            }
          }
-         
-         ticket = OrderSend(Symbol(), OP_SELLSTOP, LOTS, InitialPrice - INCREMENT * Point, 2, BuyGoal, SellGoal, DoubleToStr(InitialPrice, MarketInfo(Symbol(), MODE_DIGITS)), MAGIC, 0);
-         if (ticket > 0) {
-             SellGoalProfit = CheckProfits(OP_SELL, InitialPrice);
-             Print("cpt(" + cpt + ")  SellGoalProfit(" + SellGoalProfit + ")");
-         }else{
-            Print("Cannot trade, error: ",ErrorDescription(GetLastError())); 
-            PrintFormat("OP:"+(InitialPrice -  INCREMENT * Point)+" SL:"+BuyGoal+" TP:"+SellGoal);        
-         }
-         
     }
     else 
     {
@@ -103,25 +107,18 @@ int start() {
 
         if (BuyGoalProfit < (INCREMENT / 1.1) && Bid < InitialPrice)
         {
-            Print("BuyGoalProfit(" + BuyGoalProfit + ")  <  SellGoalProfit*" + FATOR_HEDGE + "(" + SellGoalProfit * FATOR_HEDGE + ")");
              for (cpt = 5; cpt >= 1 && BuyGoalProfit < SellGoalProfit * FATOR_HEDGE; cpt--) {
                  if (Ask <= (InitialPrice + (cpt * INCREMENT - MarketInfo(Symbol(), MODE_STOPLEVEL)) * Point)) {
                      double op = InitialPrice + INCREMENT * Point;                        
-                     double tp = (BuyGoal - op) * 10000;                        
+                     double tp = INCREMENT/LOTS;                        
                      int diferenca = SellGoalProfit * FATOR_HEDGE - BuyGoalProfit;                        
                      double newlot = NormalizeDouble(diferenca / tp, 2) + MarketInfo(Symbol(), MODE_MINLOT);                        
                      if (newlot > MarketInfo(Symbol(), MODE_MAXLOT))
                          newlot = MarketInfo(Symbol(), MODE_MAXLOT);
-                     Print("op.:" + op);
-                     Print("tp.:" + (BuyGoal - op));
-                     Print("diferenca.:" + diferenca);
-                     Print("novo lote compra " + newlot);
                      ticket = OrderSend(Symbol(), OP_BUYSTOP, newlot, InitialPrice + INCREMENT * Point, 2, SellGoal, BuyGoal, DoubleToStr(InitialPrice, MarketInfo(Symbol(), MODE_DIGITS)), MAGIC, 0);
                  }
                  if (ticket > 0) {
-                     Print("antes BuyGoalProfit(" + BuyGoalProfit + ")");
                      BuyGoalProfit = CheckProfits(OP_BUY, InitialPrice);
-                     Print("depois BuyGoalProfit(" + BuyGoalProfit + ")");
                  }else{
                      Print("Cannot trade, error: ",ErrorDescription(GetLastError())); 
                      PrintFormat("OP:",op," SL:",SellGoal," TP:",BuyGoal); 
@@ -130,7 +127,6 @@ int start() {
         }
         if (SellGoalProfit < (INCREMENT / 1.1) && Bid > InitialPrice)
         {
-            Print("SellGoalProfit(" + SellGoalProfit + ")  <  BuyGoalProfit*" + FATOR_HEDGE + "(" + BuyGoalProfit * FATOR_HEDGE + ")");
              for (cpt = 5; cpt >= 1 && SellGoalProfit < BuyGoalProfit * FATOR_HEDGE; cpt--) {
                  if (Bid >= (InitialPrice - (cpt * INCREMENT - MarketInfo(Symbol(), MODE_STOPLEVEL)) * Point)) {
                      op = 0;
@@ -139,21 +135,15 @@ int start() {
                      diferenca = 0;
                      newlot = 0;
                      op = InitialPrice - INCREMENT * Point;                        
-                     tp = (op - SellGoal) * 10000;                        
+                     tp = INCREMENT/LOTS;                        
                      diferenca = BuyGoalProfit * FATOR_HEDGE - SellGoalProfit;                        
                      newlot = NormalizeDouble(diferenca / tp, 2) + MarketInfo(Symbol(), MODE_MINLOT);
                      if (newlot > MarketInfo(Symbol(), MODE_MAXLOT))
                          newlot = MarketInfo(Symbol(), MODE_MAXLOT);
-                     Print("op.:" + op);
-                     Print("tp.:" + tp);
-                     Print("diferenca.:" + diferenca);
-                     Print("novo lote  venda " + newlot);
                      ticket = OrderSend(Symbol(), OP_SELLSTOP, newlot, InitialPrice - INCREMENT * Point, 2, BuyGoal, SellGoal, DoubleToStr(InitialPrice, MarketInfo(Symbol(), MODE_DIGITS)), MAGIC, 0);
                  }
                  if (ticket > 0) {
-                     Print("antes SellGoalProfit(" + SellGoalProfit + ")");
                      SellGoalProfit = CheckProfits(OP_SELL, InitialPrice);
-                     Print("depois SellGoalProfit(" + SellGoalProfit + ")");
                  }else{
                      Print("Cannot trade, error: ",ErrorDescription(GetLastError()));  
                      PrintFormat("OP:",op," SL:",BuyGoal," TP:",SellGoal);     
@@ -170,7 +160,7 @@ int start() {
         "Account Balance:  $", AccountBalance(), "\n",
         "Symbol: ", Symbol(), "\n",
         "Price:  ", NormalizeDouble(Bid, 4), "\n",
-        "Pip Spread:  ", MarketInfo("EURUSD", MODE_SPREAD), "\n",
+        "Pip Spread:  ", MarketInfo(Symbol(), MODE_SPREAD), "\n",
         "Increment=" + INCREMENT, "\n",
         "Lots:  ", LOTS, "\n");
     return (0);
